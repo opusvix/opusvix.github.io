@@ -90,7 +90,7 @@ title: Maurício Barros | BI & Analytics
 
 ## 🧠 Stack de Tecnologias
     
-    Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP
+   - Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP
  
 ## 🔗 Portfólio Técnico Completo
     
