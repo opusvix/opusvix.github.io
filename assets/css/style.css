@@ -6,6 +6,30 @@ body {
 
 /* Container principal */
 .wrapper {
+    <section class="hero">
+      <h1>Maurício Barros</h1>
+    
+      <h2>
+        Analista de Dados • BI • Analytics • Engenharia de Dados
+      </h2>
+    
+      <p>
+        Transformo dados em <strong>insights claros</strong>, 
+        dashboards executivos e soluções analíticas que apoiam 
+        a tomada de decisão.
+      </p>
+    
+      <div class="hero-actions">
+        <a href="https://github.com/opusvix" target="_blank" class="btn-primary">
+          Ver GitHub
+        </a>
+    
+        <a href="#projetos" class="btn-secondary">
+          Ver Projetos
+        </a>
+      </div>
+    </section>
+    
     background-color: #f3f4f6; /* interior mais claro */
     max-width: 960px;
     margin: 48px auto;
