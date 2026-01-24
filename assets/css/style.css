@@ -9,13 +9,13 @@ main,
 .container,
 .content {
     background-color: #f3f4f6; /* cinza mais claro que o fundo */
-    max-width: 960px;
+    max-width: 800px;
     margin: 40px auto;
     padding: 40px;
     border-radius: 12px;
 
     /* Moldura/sombra */
-    border: 1px solid #d1d5db;
+    border: 2px solid #d1d5db;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
