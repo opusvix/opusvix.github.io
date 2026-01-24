@@ -39,3 +39,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Remove header automático do tema minimal */
+header {
+  display: none;
+}
