@@ -1,43 +1,41 @@
 /* Fundo geral da página */
 body {
-  background-color: #f4f4f4;
+    background-color: #e5e7eb; /* cinza claro */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-/* Caixa principal do tema minimal */
-.wrapper {
-  background-color: #ffffff;
-  padding: 2.5rem;
-  margin: 3rem auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+/* Container principal do conteúdo */
+main, 
+.container,
+.content {
+    background-color: #f3f4f6; /* cinza mais claro que o fundo */
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+
+    /* Moldura/sombra */
+    border: 1px solid #d1d5db;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
-/* Cabeçalho */
-header h1 {
-  color: #2c2c2c;
+/* Ajuste fino de textos */
+p {
+    color: #374151;
+    line-height: 1.6;
 }
 
-/* Subtítulos */
-h2, h3 {
-  color: #333333;
-}
-
-/* Texto */
-p, li {
-  color: #4a4a4a;
-  line-height: 1.6;
+/* Títulos */
+h1, h2, h3 {
+    color: #111827;
 }
 
 /* Links */
 a {
-  color: #0057b7;
+    color: #2563eb;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-/* Remove header automático do tema minimal */
-header {
-  display: none;
-}
-
