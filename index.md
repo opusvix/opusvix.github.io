@@ -40,6 +40,7 @@ title: Maurício Barros | BI & Analytics
     </div>
 
     <div class="card">
+       img src="assets/PrintPagina1.png" alt="Dashboard de Serviços Públicos">
       <h3>⚡ Serviços Públicos & Energia Solar</h3>
       <p>Análise de consumo energético e economia financeira em Power BI.</p>
       <div class="tags">
@@ -52,6 +53,7 @@ title: Maurício Barros | BI & Analytics
     </div>
 
     <div class="card">
+      <img src="assets/sla-eficiencia.png" alt="Dashboard de Gestão de Demandas">
       <h3>📈 Gestão de Demandas & SLA</h3>
       <p>Monitoramento de SLAs e desempenho operacional.</p>
       <div class="tags">
