@@ -116,11 +116,11 @@ a:hover {
 
 .card img {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  background: #f4f4f4;
 }
+
 
 /* TAGS */
 .tags {
