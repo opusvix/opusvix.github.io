@@ -27,6 +27,7 @@ title: Maurício Barros | BI & Analytics
   <div class="cards">
 
     <div class="card">
+      <img src="assets/dash_rotina.png" alt="Dashboard de Glicemia">
       <h3>📊 Monitoramento e Análise de Glicemia</h3>
       <p>Dashboard em Power BI para acompanhamento de indicadores glicêmicos.</p>
       <div class="tags">
