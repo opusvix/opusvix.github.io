@@ -1,1 +1,39 @@
+/* Fundo geral da página */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Caixa principal do tema minimal */
+.wrapper {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  margin: 3rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Cabeçalho */
+header h1 {
+  color: #2c2c2c;
+}
+
+/* Subtítulos */
+h2, h3 {
+  color: #333333;
+}
+
+/* Texto */
+p, li {
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #0057b7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
