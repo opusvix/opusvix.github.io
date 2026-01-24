@@ -1,107 +1,146 @@
+/* RESET BÁSICO */
+* {
+    box-sizing: border-box;
+}
 
-<section id="projetos">
-  <h2 class="section-title">Projetos em Destaque</h2>
+/* FUNDO GERAL */
+body {
+    background-color: #e5e7eb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Helvetica, Arial, sans-serif;
+    color: #111827;
+}
 
-  <div class="cards">
-
-    <div class="card">
-      <h3>📊 Monitoramento e Análise de Glicemia</h3>
-      <p>
-        Dashboard em Power BI para análise de indicadores glicêmicos,
-        acompanhamento histórico e apoio à decisão clínica.
-      </p>
-
-      <div class="tags">
-        <span>Power BI</span>
-        <span>PBIP</span>
-        <span>Analytics</span>
-      </div>
-
-      <div class="card-links">
-        <a href="https://github.com/opusvix/glicemia-powerbi" target="_blank">GitHub</a>
-        <a href="https://app.powerbi.com/links/mFMycL0Hza" target="_blank">Ver Dashboard</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>⚡ Serviços Públicos & Energia Solar</h3>
-      <p>
-        Análise de consumo energético, economia financeira e créditos
-        solares com storytelling executivo em Power BI.
-      </p>
-
-      <div class="tags">
-        <span>Power BI</span>
-        <span>DAX</span>
-        <span>PBIP</span>
-      </div>
-
-      <div class="card-links">
-        <a href="https://github.com/opusvix/ServicosPublicos" target="_blank">GitHub</a>
-        <a href="https://app.powerbi.com/links/szyB3ie72b" target="_blank">Ver Dashboard</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>📈 Gestão de Demandas & SLA</h3>
-      <p>
-        Monitoramento de SLAs, filas de atendimento e desempenho
-        operacional com Power BI integrado ao SharePoint.
-      </p>
-
-      <div class="tags">
-        <span>Power BI</span>
-        <span>SharePoint</span>
-        <span>BI</span>
-      </div>
-
-      <div class="card-links">
-        <a href="https://github.com/opusvix/gestao-demandas-sla-powerbi" target="_blank">GitHub</a>
-        <a href="https://app.powerbi.com/links/V-rmi3jgC2" target="_blank">Ver Dashboard</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>🧠 Monitoramento de Suporte Operacional</h3>
-      <p>
-        Pipeline analítico usando Google Sheets, BigQuery e Looker Studio
-        para análise de chamados operacionais.
-      </p>
-
-      <div class="tags">
-        <span>BigQuery</span>
-        <span>Looker Studio</span>
-        <span>GCP</span>
-      </div>
-
-      <div class="card-links">
-        <a href="https://github.com/opusvix/SuporteOperacional-StackGoogle" target="_blank">GitHub</a>
-        <a href="https://lookerstudio.google.com/s/sD-EnJFnXEU" target="_blank">Ver Dashboard</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>🕸️ Streaming Graph Database (Neo4j)</h3>
-      <p>
-        Modelagem de dados em grafos para sistema de streaming,
-        com foco em relacionamentos e recomendações.
-      </p>
-
-      <div class="tags">
-        <span>Neo4j</span>
-        <span>Cypher</span>
-        <span>Graph Data</span>
-      </div>
-
-      <div class="card-links">
-        <a href="https://github.com/opusvix/streaming-graph-database" target="_blank">GitHub</a>
-      </div>
-    </div>
-
-  </div>
-
-/* Remove header automático do tema minimal */
+/* REMOVE HEADER DO TEMA */
 header {
-  display: none;
-}  
-</section>
+    display: none;
+}
+
+/* CONTAINER DO CONTEÚDO (Jekyll usa .wrapper) */
+.wrapper {
+    max-width: 1100px;
+    margin: 48px auto;
+    background-color: #f9fafb;
+    padding: 64px;
+    border-radius: 20px;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* LINKS */
+a {
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 8px;
+}
+
+.hero h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #2563eb;
+}
+
+.hero p {
+    max-width: 720px;
+    margin: 24px auto;
+    color: #374151;
+    line-height: 1.7;
+}
+
+/* BOTÕES */
+.hero-actions {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
+
+.btn-secondary {
+    background-color: #e5e7eb;
+    color: #111827;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
+
+/* TÍTULOS DE SEÇÃO */
+.section-title {
+    font-size: 1.9rem;
+    margin-bottom: 32px;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #4b5563;
+}
+
+/* TAGS */
+.tags {
+    margin: 16px 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tags span {
+    background-color: #e5e7eb;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* LINKS DOS CARDS */
+.card-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 40px 24px;
+        margin: 24px;
+    }
+}
