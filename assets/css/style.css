@@ -1,75 +1,102 @@
-/* ===========================
-   RESET BÁSICO
-=========================== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html {
-    scroll-behavior: smooth;
-}
+<section id="projetos">
+  <h2 class="section-title">Projetos em Destaque</h2>
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                 Roboto, Helvetica, Arial, sans-serif;
-    background-color: #e5e7eb; /* fundo externo cinza */
-    color: #111827;
-    line-height: 1.6;
-}
+  <div class="cards">
 
-/* ===========================
-   ESCONDER HEADER PADRÃO
-=========================== */
-header {
-    display: none;
-}
+    <div class="card">
+      <h3>📊 Monitoramento e Análise de Glicemia</h3>
+      <p>
+        Dashboard em Power BI para análise de indicadores glicêmicos,
+        acompanhamento histórico e apoio à decisão clínica.
+      </p>
 
-/* ===========================
-   WRAPPER (MOLDURA)
-=========================== */
-.wrapper {
-    max-width: 1100px;
-    margin: 48px auto;
-    background-color: #f9fafb; /* interior mais claro */
-    padding: 64px;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-}
+      <div class="tags">
+        <span>Power BI</span>
+        <span>PBIP</span>
+        <span>Analytics</span>
+      </div>
 
-/* ===========================
-   LINKS
-=========================== */
-a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 600;
-}
+      <div class="card-links">
+        <a href="https://github.com/opusvix/glicemia-powerbi" target="_blank">GitHub</a>
+        <a href="https://app.powerbi.com/links/mFMycL0Hza" target="_blank">Ver Dashboard</a>
+      </div>
+    </div>
 
-a:hover {
-    text-decoration: underline;
-}
+    <div class="card">
+      <h3>⚡ Serviços Públicos & Energia Solar</h3>
+      <p>
+        Análise de consumo energético, economia financeira e créditos
+        solares com storytelling executivo em Power BI.
+      </p>
 
-/* ===========================
-   HERO SECTION
-=========================== */
-.hero {
-    text-align: center;
-    margin-bottom: 72px;
-}
+      <div class="tags">
+        <span>Power BI</span>
+        <span>DAX</span>
+        <span>PBIP</span>
+      </div>
 
-.hero h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #111827;
-}
+      <div class="card-links">
+        <a href="https://github.com/opusvix/ServicosPublicos" target="_blank">GitHub</a>
+        <a href="https://app.powerbi.com/links/szyB3ie72b" target="_blank">Ver Dashboard</a>
+      </div>
+    </div>
 
-.hero h2 {
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #256
-/* Remove header automático do tema minimal */
-header {
-  display: none;
-}
+    <div class="card">
+      <h3>📈 Gestão de Demandas & SLA</h3>
+      <p>
+        Monitoramento de SLAs, filas de atendimento e desempenho
+        operacional com Power BI integrado ao SharePoint.
+      </p>
+
+      <div class="tags">
+        <span>Power BI</span>
+        <span>SharePoint</span>
+        <span>BI</span>
+      </div>
+
+      <div class="card-links">
+        <a href="https://github.com/opusvix/gestao-demandas-sla-powerbi" target="_blank">GitHub</a>
+        <a href="https://app.powerbi.com/links/V-rmi3jgC2" target="_blank">Ver Dashboard</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Monitoramento de Suporte Operacional</h3>
+      <p>
+        Pipeline analítico usando Google Sheets, BigQuery e Looker Studio
+        para análise de chamados operacionais.
+      </p>
+
+      <div class="tags">
+        <span>BigQuery</span>
+        <span>Looker Studio</span>
+        <span>GCP</span>
+      </div>
+
+      <div class="card-links">
+        <a href="https://github.com/opusvix/SuporteOperacional-StackGoogle" target="_blank">GitHub</a>
+        <a href="https://lookerstudio.google.com/s/sD-EnJFnXEU" target="_blank">Ver Dashboard</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>🕸️ Streaming Graph Database (Neo4j)</h3>
+      <p>
+        Modelagem de dados em grafos para sistema de streaming,
+        com foco em relacionamentos e recomendações.
+      </p>
+
+      <div class="tags">
+        <span>Neo4j</span>
+        <span>Cypher</span>
+        <span>Graph Data</span>
+      </div>
+
+      <div class="card-links">
+        <a href="https://github.com/opusvix/streaming-graph-database" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
