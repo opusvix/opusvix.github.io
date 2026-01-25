@@ -123,3 +123,4 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
    - 🧑‍💻 GitHub: https://github.com/opusvix
 
 "Dados bem analisados contam histórias melhores do que achismos."
+
