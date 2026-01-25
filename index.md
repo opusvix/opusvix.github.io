@@ -10,7 +10,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     Analista de Dados formado em Banco de Dados, com foco em
     <strong>Business Intelligence, Analytics e Engenharia de Dados</strong>.
     Desenvolvo dashboards, pipelines analíticos e modelos de dados
-    que transformam dados em decisões.
+    que transformam dados em decisões de negócio.
   </p>
 
 
