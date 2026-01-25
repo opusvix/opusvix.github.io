@@ -9,9 +9,10 @@ title: Maurício Barros | BI & Analytics
   <p>
     Analista de Dados formado em Banco de Dados, com foco em
     <strong>Business Intelligence, Analytics e Engenharia de Dados</strong>.
-    Atuo na construção de dashboards, pipelines analíticos e modelos de dados
-    para apoiar a tomada de decisão.
+    Desenvolvo dashboards, pipelines analíticos e modelos de dados
+    que transformam dados em decisões.
   </p>
+
 
   <div class="hero-actions">
     <a class="btn-primary" href="https://github.com/opusvix" target="_blank">GitHub</a>
