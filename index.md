@@ -30,7 +30,7 @@ title: Maurício Barros | BI & Analytics
     <div class="card">
       <img src="assets/dash_rotina.png" alt="Dashboard de Glicemia">
       <h3>📊 Monitoramento e Análise de Glicemia</h3>
-      <p>Dashboard em Power BI para acompanhamento de indicadores glicêmicos.</p>
+      <p>Análise e visualização de indicadores glicêmicos para acompanhamento contínuo e apoio à tomada de decisão em saúde.</p>
       <div class="tags">
         <span>Power BI</span><span>PBIP</span><span>Analytics</span>
       </div>
@@ -43,7 +43,7 @@ title: Maurício Barros | BI & Analytics
     <div class="card">
        <img src="assets/PrintPagina1.png" alt="Dashboard de Serviços Públicos">
       <h3>⚡ Serviços Públicos & Energia Solar</h3>
-      <p>Análise de consumo energético e economia financeira em Power BI.</p>
+      <p>Análise de consumo energético e economia financeira com foco em eficiência operacional e redução de custos.</p>
       <div class="tags">
         <span>Power BI</span><span>DAX</span><span>PBIP</span>
       </div>
@@ -56,7 +56,7 @@ title: Maurício Barros | BI & Analytics
     <div class="card">
       <img src="assets/sla-eficiencia.png" alt="Dashboard de Gestão de Demandas">
       <h3>📈 Gestão de Demandas & SLA</h3>
-      <p>Monitoramento de SLAs e desempenho operacional.</p>
+      <p>Monitoramento de SLAs, produtividade e desempenho operacional para suporte à gestão de serviços.</p>
       <div class="tags">
         <span>Power BI</span><span>SharePoint</span>
       </div>
@@ -68,7 +68,7 @@ title: Maurício Barros | BI & Analytics
 
     <div class="card">
       <h3>🧠 Suporte Operacional (Stack Google)</h3>
-      <p>Pipeline analítico com BigQuery e Looker Studio.</p>
+      <p>Pipeline analítico em stack Google para monitoramento operacional e visualização de indicadores em tempo quase real.</p>
       <div class="tags">
         <span>BigQuery</span><span>Looker</span><span>GCP</span>
       </div>
@@ -80,7 +80,7 @@ title: Maurício Barros | BI & Analytics
 
     <div class="card">
       <h3>🕸️ Streaming Graph Database (Neo4j)</h3>
-      <p>Modelagem de dados em grafos para sistemas de recomendação.</p>
+      <p>Modelagem de dados em grafos para sistemas de recomendação, explorando relacionamentos e consultas em Cypher.</p>
       <div class="tags">
         <span>Neo4j</span><span>Cypher</span>
       </div>
