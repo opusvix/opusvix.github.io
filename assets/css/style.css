@@ -63,7 +63,7 @@ a:hover {
 }
 
 /* BOTÕES */
-    .hero-actions {
+.hero-actions {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
@@ -81,26 +81,50 @@ a:hover {
 }
 
 /* botão principal */
+.cta-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s ease-in-out;
+}
+
 .btn-primary {
-  background-color: #2563eb;
+  background: #2563eb;
   color: #ffffff;
 }
 
-/* botão secundário */
+.btn-primary:hover {
+  background: #1e40af;
+}
+
 .btn-secondary {
-  background-color: #e5e7eb;
+  background: #e5e7eb;
   color: #111827;
 }
 
-/* hover consistente */
-.btn-primary:hover {
-  background-color: #1e40af;
-}
-
 .btn-secondary:hover {
-  background-color: #d1d5db;
+  background: #d1d5db;
 }
 
+.btn-tertiary {
+  background: transparent;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.btn-tertiary:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
 
 /* TÍTULOS DE SEÇÃO */
 .section-title {
