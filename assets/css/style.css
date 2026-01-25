@@ -65,9 +65,11 @@ a:hover {
 /* BOTÕES */
 .hero-actions {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 12px;
+  margin-top: 28px;
   flex-wrap: wrap;
-  margin-top: 20px;
 }
 
 /* base para todos os botões */
