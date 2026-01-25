@@ -4,7 +4,8 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
 
 <div class="hero">
   <h1>Maurício Barros</h1>
-  <h2>Analista de Dados • BI • Analytics • Engenharia de Dados</h2>
+  <h2>Analista de Dados focado em BI, Analytics e Tomada de Decisão</h2>
+  <h2>Power BI • SQL • BigQuery • Modelagem Analítica • Dashboards Executivos</h2>
 
   <p>
     Analista de Dados formado em Banco de Dados, com foco em
