@@ -16,9 +16,9 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
 
   <div class="hero-actions">
     <a class="btn-primary" href="https://opusvix.github.io" target="_blank">Portfólio</a>
+    <a class="btn-secondary" href="#projetos">Projetos</a>
     <a class="btn-secondary" href="https://github.com/opusvix" target="_blank">GitHub</a>
     <a class="btn-secondary" href="https://www.linkedin.com/in/mauriciodasilvabarros/" target="_blank">LinkedIn</a>
-    <a class="btn-secondary" href="#projetos">Projetos</a>
   </div>
 </div>
 
@@ -97,6 +97,18 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
 ## 🧠 Stack de Tecnologias
     
    - Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP
+
+## 🧠 Competências
+
+- Análise Exploratória de Dados (EDA)
+
+- SQL e Modelagem de Dados
+
+- BI e Dashboards Executivos
+
+- Automação de Processos Analíticos
+
+- Storytelling com Dados   
  
 ## 🔗 Portfólio Técnico Completo
     
@@ -108,3 +120,5 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     
    - 💼 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
    - 🧑‍💻 GitHub: https://github.com/opusvix
+
+"Dados bem analisados contam histórias melhores do que achismos."
