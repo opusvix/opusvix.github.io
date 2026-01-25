@@ -16,7 +16,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
 
   <div class="hero-actions">
     <a class="btn-primary" href="https://opusvix.github.io" target="_blank">Portfólio</a>
-    <a class="btn-primary" href="https://github.com/opusvix" target="_blank">GitHub</a>
+    <a class="btn-secondary" href="https://github.com/opusvix" target="_blank">GitHub</a>
     <a class="btn-secondary" href="https://www.linkedin.com/in/mauriciodasilvabarros/" target="_blank">LinkedIn</a>
     <a class="btn-secondary" href="#projetos">Projetos</a>
   </div>
