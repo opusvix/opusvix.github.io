@@ -63,15 +63,12 @@ a:hover {
 }
 
 /* BOTÕES */
-.hero-actions {
-    margin-top: 32px;
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-.btn-primary {
+    .hero-actions a {
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    
+    .btn-primary {
     background-color: #2563eb;
     color: #ffffff;
     padding: 12px 24px;
