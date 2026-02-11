@@ -91,13 +91,24 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
         <a href="https://github.com/opusvix/streaming-graph-database" target="_blank">GitHub</a>
       </div>
     </div>
+
+    <div class="card">
+      <h3>📊 Sales Forecast | Machine Learning</h3>
+      <p>Previsão de vendas com Microsoft Fabric integrada a Warehouse e Power BI.</p>
+      <div class="tags">
+        <span>Fabric</span><span>Power BI</span>
+      </div>
+      <div class="card-links">
+        <a href="https://github.com/opusvix/sales-forecast-ml" target="_blank">GitHub</a>
+      </div>
+    </div>
   </div>
 
 </section>
 
 ## 🧠 Stack de Tecnologias
     
-   - Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP
+   - Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP · Fabric
 
 ## 🧠 Competências
 
