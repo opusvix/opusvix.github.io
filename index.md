@@ -100,7 +100,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       </div>
       <div class="card-links">
         <a href="https://github.com/opusvix/sales-forecast-powerbi" target="_blank">GitHub</a>
-        <a href="(https://app.powerbi.com/links/a69j1CByYs?ctid=da3d1810-8e7f-4c5c-a317-0ccb7ef62b3a&pbi_source=linkShare)" target="_blank">Dashboard</a>
+        <a href="https://app.powerbi.com/groups/9f886897-730b-42bc-aaf8-bdecf6c80798/reports/ca202601-0410-41c3-9980-48b634ab67e4?ctid=da3d1810-8e7f-4c5c-a317-0ccb7ef62b3a&pbi_source=linkShare" target="_blank">Dashboard</a>
       </div>
     </div>
   </div>
