@@ -1,4 +1,98 @@
 ---
+layout: default
+title: Data Analytics Portfolio
+---
+
+# 👋 Olá | Hello
+
+## 🇧🇷 Português
+
+Bem-vindo ao meu portfólio de projetos em **Data Analytics, SQL Performance, BI e Engenharia de Dados**.
+
+Aqui você encontrará estudos práticos aplicando:
+
+- PostgreSQL avançado
+- Otimização de consultas
+- Modelagem relacional
+- Power BI
+- Machine Learning
+- Graph Database (Neo4j)
+
+---
+
+## 🇺🇸 English
+
+Welcome to my **Data Analytics Portfolio**, focused on:
+
+- Advanced PostgreSQL
+- Query Optimization
+- Data Modeling
+- Power BI Dashboards
+- Machine Learning
+- Graph Databases (Neo4j)
+
+---
+
+# 📊 Projetos | Projects
+
+---
+
+## 🚛 LogiTrack SQL Analytics
+Performance tuning, partitioning and BI dashboard.
+
+[🇧🇷 Ver Projeto](projetos/logitrack-sql-analytics)  
+[🇺🇸 View Project](projetos/logitrack-sql-analytics)
+
+---
+
+## 🤖 Sales Forecast | Machine Learning
+Time series forecasting and predictive modeling.
+
+[🇧🇷 Ver Projeto](projetos/sales-forecast-ml)  
+[🇺🇸 View Project](projetos/sales-forecast-ml)
+
+---
+
+## 🧠 Streaming Graph Database (Neo4j)
+Graph modeling and relationship analytics.
+
+[🇧🇷 Ver Projeto](projetos/streaming-graph-neo4j)  
+[🇺🇸 View Project](projetos/streaming-graph-neo4j)
+
+---
+
+## ⚡ Serviços Públicos & Energia Solar
+Data analysis for public infrastructure.
+
+[🇧🇷 Ver Projeto](projetos/servicos-publicos-energia)  
+[🇺🇸 View Project](projetos/servicos-publicos-energia)
+
+---
+
+## 📈 Gestão de Demandas & SLA
+Operational performance and SLA analysis.
+
+[🇧🇷 Ver Projeto](projetos/gestao-demandas-sla)  
+[🇺🇸 View Project](projetos/gestao-demandas-sla)
+
+---
+
+## 🩺 Monitoramento e Análise de Glicemia
+Healthcare data monitoring and insights.
+
+[🇧🇷 Ver Projeto](projetos/monitoramento-glicemia)  
+[🇺🇸 View Project](projetos/monitoramento-glicemia)
+
+---
+
+## 🛠 Suporte Operacional (Stack Google)
+Operational analytics with Google ecosystem.
+
+[🇧🇷 Ver Projeto](projetos/suporte-operacional-google)  
+[🇺🇸 View Project](projetos/suporte-operacional-google)
+
+<<<================================================================>>>
+---
 title: Maurício Barros | Analista de Dados • BI & Analytics
 ---
 
