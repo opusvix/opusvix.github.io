@@ -3,6 +3,117 @@ layout: default
 title: Data Analytics Portfolio
 ---
 
+<div class="language-header">
+  <a href="#english">🇺🇸 English</a>
+  <a href="#portugues">🇧🇷 Português</a>
+  <a href="#top">⬆ Top</a>
+</div>
+
+<a id="top"></a>
+
+---
+
+<a id="english"></a>
+
+# 👨‍💻 Data Analytics Portfolio
+
+## Featured Projects
+
+<div class="project-card">
+<img src="/assets/PrintPagina1.png">
+
+### 🚛 LogiTrack SQL Analytics
+High-performance PostgreSQL optimization with partitioning and executive Power BI dashboard.
+
+<div class="project-links">
+<a href="https://github.com/SEUUSUARIO/logitrack">GitHub</a>
+<a href="https://SEUUSUARIO.github.io/logitrack">Dashboard</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="/assets/dash_rotina.png">
+
+### 🩺 Glucose Monitoring & Analytics
+Healthcare data monitoring and visualization.
+
+<div class="project-links">
+<a href="#">GitHub</a>
+<a href="#">Dashboard</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="/assets/arquitetura_pipeline.png">
+
+### ⚡ Public Services & Solar Energy
+Energy consumption and financial efficiency analysis.
+
+<div class="project-links">
+<a href="#">GitHub</a>
+<a href="#">Dashboard</a>
+</div>
+</div>
+
+<div class="back-top">
+<a href="#top">⬆ Back to Top</a>
+</div>
+
+---
+
+<a id="portugues"></a>
+
+# 👨‍💻 Portfólio de Análise de Dados
+
+## Projetos em Destaque
+
+<div class="project-card">
+<img src="/assets/PrintPagina1.png">
+
+### 🚛 LogiTrack SQL Analytics
+Otimização de performance em PostgreSQL com particionamento e dashboard executivo em Power BI.
+
+<div class="project-links">
+<a href="https://github.com/SEUUSUARIO/logitrack">GitHub</a>
+<a href="https://SEUUSUARIO.github.io/logitrack">Dashboard</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="/assets/dash_rotina.png">
+
+### 🩺 Monitoramento e Análise de Glicemia
+Análise e visualização de indicadores de saúde.
+
+<div class="project-links">
+<a href="#">GitHub</a>
+<a href="#">Dashboard</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="/assets/arquitetura_pipeline.png">
+
+### ⚡ Serviços Públicos & Energia Solar
+Análise de consumo energético e eficiência financeira.
+
+<div class="project-links">
+<a href="#">GitHub</a>
+<a href="#">Dashboard</a>
+</div>
+</div>
+
+<div class="back-top">
+<a href="#top">⬆ Voltar ao Topo</a>
+</div>
+
+<<<================================================================>>>
+
+---
+layout: default
+title: Data Analytics Portfolio
+---
+
 # 🌎 Language | Idioma
 
 <div style="margin-bottom:20px;">
