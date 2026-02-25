@@ -3,6 +3,130 @@ layout: default
 title: Data Analytics Portfolio
 ---
 
+# 🌎 Language | Idioma
+
+<div style="margin-bottom:20px;">
+<a href="#english" style="padding:8px 14px;background:#0d6efd;color:white;text-decoration:none;border-radius:6px;">🇺🇸 English</a>
+<a href="#portugues" style="padding:8px 14px;background:#198754;color:white;text-decoration:none;border-radius:6px;margin-left:10px;">🇧🇷 Português</a>
+</div>
+
+---
+
+<a id="english"></a>
+
+# 👨‍💻 Data Analytics Portfolio
+
+Welcome to my portfolio.  
+Here you will find projects focused on:
+
+- SQL & Database Optimization  
+- Business Intelligence  
+- Machine Learning  
+- Operational Analytics  
+- Data Architecture  
+
+---
+
+## 📂 Projects
+
+### 🚚 LogiTrack SQL Analytics
+High-performance PostgreSQL optimization project with partitioning and executive Power BI dashboard.  
+[View Project](./projetos/logitrack-sql-analytics)
+
+---
+
+### 📈 Sales Forecast | Machine Learning
+Time series forecasting model for revenue prediction.  
+[View Project](./projetos/sales-forecast-ml)
+
+---
+
+### 🩺 Glucose Monitoring & Analytics
+Health data analytics and visualization project.
+
+---
+
+### ☀ Public Services & Solar Energy
+Operational and sustainability analysis.
+
+---
+
+### 📊 Demand Management & SLA
+SLA efficiency monitoring dashboard.
+
+---
+
+### 🖥 Operational Support (Google Stack)
+Operational analytics using Google ecosystem tools.
+
+---
+
+### 🕸 Streaming Graph Database (Neo4j)
+Graph-based real-time analytics project.
+
+---
+
+---
+
+<a id="portugues"></a>
+
+# 👨‍💻 Portfólio de Análise de Dados
+
+Bem-vindo ao meu portfólio.  
+Aqui você encontrará projetos focados em:
+
+- SQL & Otimização de Banco  
+- Business Intelligence  
+- Machine Learning  
+- Analytics Operacional  
+- Arquitetura de Dados  
+
+---
+
+## 📂 Projetos
+
+### 🚚 LogiTrack SQL Analytics
+Projeto de otimização de performance em PostgreSQL com particionamento e dashboard executivo em Power BI.  
+[Ver Projeto](./projetos/logitrack-sql-analytics)
+
+---
+
+### 📈 Sales Forecast | Machine Learning
+Modelo de previsão temporal para projeção de receita.  
+[Ver Projeto](./projetos/sales-forecast-ml)
+
+---
+
+### 🩺 Monitoramento e Análise de Glicemia
+Projeto de análise e visualização de dados de saúde.
+
+---
+
+### ☀ Serviços Públicos & Energia Solar
+Análise operacional e sustentabilidade.
+
+---
+
+### 📊 Gestão de Demandas & SLA
+Dashboard de eficiência operacional e SLA.
+
+---
+
+### 🖥 Suporte Operacional (Stack Google)
+Análises operacionais com ferramentas Google.
+
+---
+
+### 🕸 Streaming Graph Database (Neo4j)
+Projeto de análise em tempo real com banco de grafos.
+
+<<<================================================================>>>
+
+---
+layout: default
+title: Data Analytics Portfolio
+---
+
 # 👋 Olá | Hello
 
 ## 🇧🇷 Português
