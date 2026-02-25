@@ -259,65 +259,93 @@ margin: 24px;
   text-align: right;
 }
 
-/* HEADER DE IDIOMA */
+/* ========================= */
+/* HEADER IDIOMA FIXO */
+/* ========================= */
 .top-language-bar {
   position: sticky;
   top: 0;
   background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
-  padding: 8px 0;
+  border-bottom: 1px solid #eaeaea;
+  padding: 6px 20px;
   text-align: right;
   z-index: 1000;
 }
 
 .top-language-bar a {
-  margin-right: 20px;
   font-size: 14px;
   text-decoration: none;
-  color: #0d6efd;
+  margin-left: 15px;
   font-weight: 500;
+  color: #2563eb;
 }
 
 .top-language-bar a:hover {
   text-decoration: underline;
 }
 
+/* ========================= */
 /* GRID 3 COLUNAS */
+/* ========================= */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  display: flex;
+  gap: 25px;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
-/* CARD */
 .project-card {
+  flex: 1 1 calc(33.333% - 20px);
   background: #ffffff;
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+  transition: 0.2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
 }
 
+/* IMAGEM CONTROLADA */
 .project-card img {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
+/* RESUMO */
+.project-summary {
+  font-size: 14px;
+  margin: 12px 0;
+  color: #555;
+}
+
+/* BADGES */
+.tech-badges {
+  margin-top: 10px;
+}
+
+.tech-badges span {
+  display: inline-block;
+  background: #f1f3f5;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 4px 5px 0 0;
+}
+
+/* LINKS */
 .project-links {
   margin-top: 15px;
 }
 
 .project-links a {
-  margin-right: 15px;
   text-decoration: none;
-  color: #0d6efd;
+  margin-right: 15px;
   font-weight: 500;
+  color: #2563eb;
 }
 
 .project-links a:hover {
@@ -326,7 +354,7 @@ margin: 24px;
 
 /* RESPONSIVO */
 @media (max-width: 1000px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
+  .project-card {
+    flex: 1 1 100%;
   }
 }
