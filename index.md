@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Data Analytics Portfolio
+title: Maurício Barros
 ---
 
-<div class="language-header">
+<div class="top-language-bar">
   <a href="#english">🇺🇸 English</a>
   <a href="#portugues">🇧🇷 Português</a>
   <a href="#top">⬆ Top</a>
@@ -11,61 +11,22 @@ title: Data Analytics Portfolio
 
 <a id="top"></a>
 
----
+# Maurício Barros
 
-<a id="english"></a>
+### Analista de Dados focado em BI, Analytics e Tomada de Decisão
 
-# 👨‍💻 Data Analytics Portfolio
+**Power BI • SQL • BigQuery • Modelagem Analítica • Dashboards Executivos**
 
-## Featured Projects
-
-<div class="project-card">
-<img src="/assets/PrintPagina1.png">
-
-### 🚛 LogiTrack SQL Analytics
-High-performance PostgreSQL optimization with partitioning and executive Power BI dashboard.
-
-<div class="project-links">
-<a href="https://github.com/SEUUSUARIO/logitrack">GitHub</a>
-<a href="https://SEUUSUARIO.github.io/logitrack">Dashboard</a>
-</div>
-</div>
-
-<div class="project-card">
-<img src="/assets/dash_rotina.png">
-
-### 🩺 Glucose Monitoring & Analytics
-Healthcare data monitoring and visualization.
-
-<div class="project-links">
-<a href="#">GitHub</a>
-<a href="#">Dashboard</a>
-</div>
-</div>
-
-<div class="project-card">
-<img src="/assets/arquitetura_pipeline.png">
-
-### ⚡ Public Services & Solar Energy
-Energy consumption and financial efficiency analysis.
-
-<div class="project-links">
-<a href="#">GitHub</a>
-<a href="#">Dashboard</a>
-</div>
-</div>
-
-<div class="back-top">
-<a href="#top">⬆ Back to Top</a>
-</div>
+Analista de Dados formado em Banco de Dados, com foco em **Business Intelligence, Analytics e Engenharia de Dados**.  
+Desenvolvo dashboards, pipelines analíticos e modelos de dados que transformam dados em decisões de negócio.
 
 ---
 
 <a id="portugues"></a>
 
-# 👨‍💻 Portfólio de Análise de Dados
+# Projetos em Destaque
 
-## Projetos em Destaque
+<div class="projects-grid">
 
 <div class="project-card">
 <img src="/assets/PrintPagina1.png">
@@ -83,7 +44,7 @@ Otimização de performance em PostgreSQL com particionamento e dashboard execut
 <img src="/assets/dash_rotina.png">
 
 ### 🩺 Monitoramento e Análise de Glicemia
-Análise e visualização de indicadores de saúde.
+Análise e visualização de indicadores glicêmicos.
 
 <div class="project-links">
 <a href="#">GitHub</a>
@@ -92,10 +53,10 @@ Análise e visualização de indicadores de saúde.
 </div>
 
 <div class="project-card">
-<img src="/assets/arquitetura_pipeline.png">
+<img src="/assets/sla-eficiencia.png">
 
-### ⚡ Serviços Públicos & Energia Solar
-Análise de consumo energético e eficiência financeira.
+### 📊 Gestão de Demandas & SLA
+Monitoramento de SLAs e eficiência operacional.
 
 <div class="project-links">
 <a href="#">GitHub</a>
@@ -103,8 +64,52 @@ Análise de consumo energético e eficiência financeira.
 </div>
 </div>
 
-<div class="back-top">
-<a href="#top">⬆ Voltar ao Topo</a>
+</div>
+
+---
+
+<a id="english"></a>
+
+# Featured Projects
+
+<div class="projects-grid">
+
+<div class="project-card">
+<img src="/assets/PrintPagina1.png">
+
+### 🚛 LogiTrack SQL Analytics
+PostgreSQL performance optimization with partitioning and executive Power BI dashboard.
+
+<div class="project-links">
+<a href="https://github.com/SEUUSUARIO/logitrack">GitHub</a>
+<a href="https://SEUUSUARIO.github.io/logitrack">Dashboard</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="/assets/dash_rotina.png">
+
+### 🩺 Glucose Monitoring & Analytics
+Healthcare data monitoring and analytics dashboard.
+
+<div class="project-links">
+<a href="#">GitHub</a>
+<a href="#">Dashboard</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="/assets/sla-eficiencia.png">
+
+### 📊 Demand Management & SLA
+SLA efficiency and operational performance monitoring.
+
+<div class="project-links">
+<a href="#">GitHub</a>
+<a href="#">Dashboard</a>
+</div>
+</div>
+
 </div>
 
 <<<================================================================>>>
