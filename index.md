@@ -2,11 +2,6 @@
 title: Maurício Barros | Analista de Dados • BI & Analytics
 ---
 
-<p align="right">
-🇧🇷 <a href="/index-pt.html">Versão em Português</a>
-</p>
-
-
 <div class="hero">
   <h1>Maurício Barros</h1>
   <h2>Analista de Dados focado em BI, Analytics e Tomada de Decisão</h2>
