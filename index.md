@@ -105,7 +105,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     </div>
 
     <div class="card">
-      <h3>📊 Análise Logística | SQL Avançado | KPIs Operacionais | Modelagem Analítica</h3>
+      <h3>📊 Análise Logística</h3>
       <p>Projeto de Análise Logística com SQL Avançado, KPIs operacionais e modelagem analítica.</p>
       <div class="tags">
         <span>Fabric</span><span>Power BI</span>
