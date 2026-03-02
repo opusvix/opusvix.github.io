@@ -105,7 +105,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     </div>
 
     <div class="card">
-       <img src="docs/Logistica.png" alt="Dashboard de Análise Logística">
+       <img src="assets/Logistica.png" alt="Dashboard de Análise Logística">
       <h3>📊 Análise Logística</h3>
       <p>Projeto de Análise Logística com SQL Avançado, KPIs operacionais e modelagem analítica.</p>
       <div class="tags">
