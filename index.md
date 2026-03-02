@@ -108,9 +108,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <h3>📊 Análise Logística</h3>
       <p>Projeto de Análise Logística com SQL Avançado, KPIs operacionais e modelagem analítica.</p>
       <div class="tags">
-        <span>Fabric</span><span>Power BI</span>
-        <span>Fabric</span><span>SQL</span>
-        <span>Fabric</span><span>Docker</span>
+        <span>Power BI</span><span>SQL</span><span>Docker</span>
       </div>
       <div class="card-links">
         <a href="https://github.com/opusvix/logitrack-sql-analytics" target="_blank">GitHub</a>
