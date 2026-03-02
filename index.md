@@ -144,10 +144,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     
 🔎 **GitHub README:** https://github.com/opusvix
         
-## 🤝 Contato
-    
-   - 💼 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
-   - 🧑‍💻 GitHub: https://github.com/opusvix
+## 👤 Autor    
+  Maurício Barros    
+  Analista de Dados  
+  
+  💼 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
+  
+  🧑‍💻 GitHub: https://github.com/opusvix
 
 "Dados bem analisados contam histórias melhores do que achismos."
 
