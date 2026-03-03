@@ -121,6 +121,8 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
 
 </section>
 
+---
+
 ## 🧠 Stack de Tecnologias
     
    - Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP · Fabric · Docker
