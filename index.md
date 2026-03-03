@@ -121,6 +121,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
 
 </section>
 
+
 ---
 
 ## 🧠 Stack de Tecnologias
