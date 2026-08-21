@@ -1,105 +1,6 @@
 ---
-layout: default
-title: Data Analytics Portfolio
----
-
-# 👋 Olá | Hello
-
-## 🇧🇷 Português
-
-Bem-vindo ao meu portfólio de projetos em **Data Analytics, SQL Performance, BI e Engenharia de Dados**.
-
-Aqui você encontrará estudos práticos aplicando:
-
-- PostgreSQL avançado
-- Otimização de consultas
-- Modelagem relacional
-- Power BI
-- Machine Learning
-- Graph Database (Neo4j)
-
----
-
-## 🇺🇸 English
-
-Welcome to my **Data Analytics Portfolio**, focused on:
-
-- Advanced PostgreSQL
-- Query Optimization
-- Data Modeling
-- Power BI Dashboards
-- Machine Learning
-- Graph Databases (Neo4j)
-
----
-
-# 📊 Projetos | Projects
-
----
-
-## 🚛 LogiTrack SQL Analytics
-Performance tuning, partitioning and BI dashboard.
-
-[🇧🇷 Ver Projeto](projetos/logitrack-sql-analytics)  
-[🇺🇸 View Project](projetos/logitrack-sql-analytics)
-
----
-
-## 🤖 Sales Forecast | Machine Learning
-Time series forecasting and predictive modeling.
-
-[🇧🇷 Ver Projeto](projetos/sales-forecast-ml)  
-[🇺🇸 View Project](projetos/sales-forecast-ml)
-
----
-
-## 🧠 Streaming Graph Database (Neo4j)
-Graph modeling and relationship analytics.
-
-[🇧🇷 Ver Projeto](projetos/streaming-graph-neo4j)  
-[🇺🇸 View Project](projetos/streaming-graph-neo4j)
-
----
-
-## ⚡ Serviços Públicos & Energia Solar
-Data analysis for public infrastructure.
-
-[🇧🇷 Ver Projeto](projetos/servicos-publicos-energia)  
-[🇺🇸 View Project](projetos/servicos-publicos-energia)
-
----
-
-## 📈 Gestão de Demandas & SLA
-Operational performance and SLA analysis.
-
-[🇧🇷 Ver Projeto](projetos/gestao-demandas-sla)  
-[🇺🇸 View Project](projetos/gestao-demandas-sla)
-
----
-
-## 🩺 Monitoramento e Análise de Glicemia
-Healthcare data monitoring and insights.
-
-[🇧🇷 Ver Projeto](projetos/monitoramento-glicemia)  
-[🇺🇸 View Project](projetos/monitoramento-glicemia)
-
----
-
-## 🛠 Suporte Operacional (Stack Google)
-Operational analytics with Google ecosystem.
-
-[🇧🇷 Ver Projeto](projetos/suporte-operacional-google)  
-[🇺🇸 View Project](projetos/suporte-operacional-google)
-
-<<<================================================================>>>
----
 title: Maurício Barros | Analista de Dados • BI & Analytics
 ---
-
-<p align="right">
-🇧🇷 <a href="/index-pt.html">Versão em Português</a>
-</p>
-
 
 <div class="hero">
   <h1>Maurício Barros</h1>
@@ -202,13 +103,31 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
         <a href="https://app.powerbi.com/groups/9f886897-730b-42bc-aaf8-bdecf6c80798/reports/ca202601-0410-41c3-9980-48b634ab67e4?ctid=da3d1810-8e7f-4c5c-a317-0ccb7ef62b3a&pbi_source=linkShare" target="_blank">Dashboard</a>
       </div>
     </div>
+
+    <div class="card">
+       <img src="assets/Logistica.png" alt="Dashboard de Análise Logística">
+      <h3>📊 Análise Logística</h3>
+      <p>Projeto de Análise Logística com SQL Avançado, KPIs operacionais e modelagem analítica.</p>
+      <div class="tags">
+        <span>Power BI</span><span>SQL</span><span>Docker</span>
+      </div>
+      <div class="card-links">
+        <a href="https://github.com/opusvix/logitrack-sql-analytics" target="_blank">GitHub</a>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiZDk5NzgyMWItN2EwOS00NzA0LTgzMDYtNmI3NmJjZmNmZDMyIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9" target="_blank">Dashboard</a>
+      </div>
+    </div>
+    
   </div>
 
 </section>
 
+
+---
+
+
 ## 🧠 Stack de Tecnologias
     
-   - Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP · Fabric
+   - Python · SQL · Power BI · BigQuery · Looker Studio · GitHub · GCP · Fabric · Docker
 
 ## 🧠 Competências
 
@@ -228,10 +147,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     
 🔎 **GitHub README:** https://github.com/opusvix
         
-## 🤝 Contato
-    
-   - 💼 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
-   - 🧑‍💻 GitHub: https://github.com/opusvix
+## 👤 Autor    
+  Maurício Barros    
+  Analista de Dados  
+  
+  💼 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
+  
+  🧑‍💻 GitHub: https://github.com/opusvix
 
 "Dados bem analisados contam histórias melhores do que achismos."
 
