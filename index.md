@@ -37,9 +37,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       >
       <h3>🏎️ Porsche Enterprise Sales Intelligence</h3>
       <p>
-        Dashboard executivo de vendas com análise de receita, ticket médio,
-        modelos, cidades e períodos, incluindo filtros persistentes,
-        comparação temporal, drill-through e detalhamento transacional.
+        Dashboard executivo de vendas Porsche com KPIs, comparação temporal, drill-through, insights e detalhamento transacional.
       </p>
       <div class="tags">
         <span>React</span>
