@@ -201,3 +201,160 @@ margin-top: 12px;
 padding: 40px 24px;
 margin: 24px;
 }
+
+/* HEADER FIXO */
+.language-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+  text-align: center;
+}
+
+.language-header a {
+  padding: 8px 16px;
+  margin: 0 5px;
+  background: #0d6efd;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.language-header a:hover {
+  opacity: 0.85;
+}
+
+/* CARDS */
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-links a {
+  margin-right: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+/* BOTÃO VOLTAR */
+.back-top {
+  display: block;
+  margin-top: 30px;
+  text-align: right;
+}
+
+/* ========================= */
+/* HEADER IDIOMA FIXO */
+/* ========================= */
+.top-language-bar {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 6px 20px;
+  text-align: right;
+  z-index: 1000;
+}
+
+.top-language-bar a {
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.top-language-bar a:hover {
+  text-decoration: underline;
+}
+
+/* ========================= */
+/* GRID 3 COLUNAS */
+/* ========================= */
+.projects-grid {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  flex: 1 1 calc(33.333% - 20px);
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+  transition: 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+/* IMAGEM CONTROLADA */
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* RESUMO */
+.project-summary {
+  font-size: 14px;
+  margin: 12px 0;
+  color: #555;
+}
+
+/* BADGES */
+.tech-badges {
+  margin-top: 10px;
+}
+
+.tech-badges span {
+  display: inline-block;
+  background: #f1f3f5;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 4px 5px 0 0;
+}
+
+/* LINKS */
+.project-links {
+  margin-top: 15px;
+}
+
+.project-links a {
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1000px) {
+  .project-card {
+    flex: 1 1 100%;
+  }
+}
