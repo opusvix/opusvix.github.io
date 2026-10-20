@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Gestão de Demandas & SLA — Power BI + SharePoint"
+---
+
 ## 📊 Gestão de Demandas & SLA — Power BI + SharePoint
 
 Projeto de Business Intelligence desenvolvido com foco em governança de dados, análise de SLAs e visualização estratégica, utilizando SharePoint como fonte de dados e Power BI (PBIP) como camada analítica.
@@ -150,7 +155,7 @@ Maurício Barros
 
 Analista de Dados | BI | Power BI | SQL | IA Generativa
 
-🔗 GitHub: https://github.com/opusvix
+🔗 GitLab: https://gitlab.com/opusvix
 
 🔗 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
 

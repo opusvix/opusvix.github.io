@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Sales Forecast com Microsoft Fabric"
+---
+
 # 📊 Sales Forecast com Microsoft Fabric
 
 Projeto end-to-end de previsão de vendas utilizando Microsoft Fabric (Lakehouse + Warehouse), modelagem dimensional em SQL e visualização estratégica no Power BI.
@@ -226,6 +231,6 @@ Maurício Barros
 
 Data Analytics | BI | Machine Learning
 
-GitHub: https://github.com/opusvix
+GitLab: https://gitlab.com/opusvix
 
 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Serviços Públicos & Energia Solar"
+---
+
 <div align="center">
   <img src="imagens/Cesan.png" alt="CESAN" height="60" />
   &nbsp;&nbsp;&nbsp;
@@ -102,4 +107,4 @@ Este projeto analisa dados históricos de consumo e faturamento de serviços pú
 
 Analista de Dados | BI | Power BI | SQL | Python
 
-🔗 GitHub: [https://github.com/opusvix](https://github.com/opusvix)
+🔗 GitHub: [https://gitlab.com/opusvix](https://gitlab.com/opusvix)

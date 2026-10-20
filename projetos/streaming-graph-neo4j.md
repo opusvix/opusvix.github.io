@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Streaming Graph Database – Neo4j"
+---
+
 # 🎬 Streaming Graph Database – Neo4j
 
 Projeto de modelagem de dados em grafos para um serviço de streaming de filmes e séries, utilizando **Neo4j** e **Cypher**, com foco em **relacionamentos** e **sistemas de recomendação**.
@@ -107,4 +112,4 @@ Maurício Barros
 
 Analista de Dados | BI | Grafos | Neo4j
 
-GitHub: https://github.com/opusvix
+GitLab: https://gitlab.com/opusvix

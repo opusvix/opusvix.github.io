@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Maurício Barros | Analista de Dados • BI & Analytics
 ---
 
@@ -46,12 +47,6 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       </div>
       <div class="card-links">
         <a
-          href="https://gitlab.com/opusvix/dashboard_porsche_sales"
-          target="_blank"
-        >
-          GitHub
-        </a>
-        <a
           href="https://porsche-sales-intelligence.opusvix.chatgpt.site"
           target="_blank"
         >
@@ -75,10 +70,10 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       </div>
       <div class="card-links">
         <a
-          href="https://gitlab.com/opusvix/glicemia-powerbi"
+          href="https://gitlab.com/opusvix/old-glicemia-powerbi"
           target="_blank"
         >
-          GitHub
+          GitLab
         </a>
         <a
           href="https://app.powerbi.com/links/mFMycL0Hza"
@@ -107,10 +102,10 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       </div>
       <div class="card-links">
         <a
-          href="https://gitlab.com/opusvix/ServicosPublicos"
+          href="https://gitlab.com/opusvix/servicospublicos"
           target="_blank"
         >
-          GitHub
+          GitLab
         </a>
         <a
           href="https://app.powerbi.com/links/szyB3ie72b"
@@ -138,10 +133,10 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       </div>
       <div class="card-links">
         <a
-          href="https://gitlab.com/opusvix/gestao-demandas-sla-powerbi"
+          href="https://gitlab.com/opusvix/gestao-demandas-sla"
           target="_blank"
         >
-          GitHub
+          GitLab
         </a>
         <a
           href="https://app.powerbi.com/links/V-rmi3jgC2"
@@ -166,10 +161,10 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       </div>
       <div class="card-links">
         <a
-          href="https://gitlab.com/opusvix/SuporteOperacional-StackGoogle"
+          href="https://gitlab.com/opusvix/suporteoperacional-stackgoogle"
           target="_blank"
         >
-          GitHub
+          GitLab
         </a>
         <a
           href="https://lookerstudio.google.com/s/sD-EnJFnXEU"
@@ -196,7 +191,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
           href="https://gitlab.com/opusvix/streaming-graph-database"
           target="_blank"
         >
-          GitHub
+          GitLab
         </a>
       </div>
     </div>
@@ -217,7 +212,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
           href="https://gitlab.com/opusvix/sales-forecast-powerbi"
           target="_blank"
         >
-          GitHub
+          GitLab
         </a>
         <a
           href="https://app.powerbi.com/groups/9f886897-730b-42bc-aaf8-bdecf6c80798/reports/ca202601-0410-41c3-9980-48b634ab67e4?ctid=da3d1810-8e7f-4c5c-a317-0ccb7ef62b3a&pbi_source=linkShare"
@@ -249,7 +244,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
           href="https://gitlab.com/opusvix/logitrack-sql-analytics"
           target="_blank"
         >
-          GitHub
+          GitLab
         </a>
         <a
           href="https://app.powerbi.com/view?r=eyJrIjoiZDk5NzgyMWItN2EwOS00NzA0LTgzMDYtNmI3NmJjZmNmZDMyIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9"
@@ -286,7 +281,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     
 👉 Para detalhes técnicos, arquitetura, modelagem e código:
     
-🔎 **GitHub README:** https://github.com/opusvix
+🔎 **GitLab:** https://gitlab.com/opusvix
         
 ## 👤 Autor    
   Maurício Barros    
@@ -294,7 +289,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
   
   💼 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
   
-  🧑‍💻 GitHub: https://github.com/opusvix
+  🧑‍💻 GitLab: https://gitlab.com/opusvix
 
 "Dados bem analisados contam histórias melhores do que achismos."
 

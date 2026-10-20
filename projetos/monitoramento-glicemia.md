@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Visão Geral"
+---
+
 <p align="center">
   <img src="images/Glicemia.png" alt="Monitoramento de Glicemia" width="600"/>
 </p>
@@ -221,4 +226,4 @@ Este projeto utiliza o formato **PBIR (Power BI Project)**, que permite versiona
 ## 👤 Autor    
   Maurício Barros    
   Analista de Dados    
-  🔗 GitHub: https://github.com/opusvix
+  🔗 GitLab: https://gitlab.com/opusvix

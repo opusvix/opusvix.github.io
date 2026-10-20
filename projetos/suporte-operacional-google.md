@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Monitoramento de Suporte Operacional"
+---
+
 # Monitoramento de Suporte Operacional
 
 ## 🧠 Contexto do Projeto
@@ -110,4 +115,4 @@ Looker Studio (Dashboards)
 
 ### Maurício Barros
 #### Analista de Dados | BI | Analytics
-🔗 GitHub: https://github.com/opusvix
+🔗 GitLab: https://gitlab.com/opusvix
