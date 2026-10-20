@@ -9,7 +9,7 @@ Projeto end-to-end de previsão de vendas utilizando Microsoft Fabric (Lakehouse
 https://opusvix.github.io/sales-forecast-powerbi/
 
 ## 🔗 Repositório:
-https://github.com/opusvix/sales-forecast-powerbi
+https://gitlab.com/opusvix/sales-forecast-powerbi
 
 ## 🎯 Contexto do Projeto
 
