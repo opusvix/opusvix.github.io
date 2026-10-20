@@ -1,0 +1,17 @@
+image: ruby:3.2
+
+pages:
+  cache:
+    key:
+      files:
+        - Gemfile
+  script:
+    - gem install bundler
+    - bundle config set path vendor/bundle
+    - bundle install --jobs 4
+    - bundle exec jekyll build -s . -d _site
+  artifacts:
+    paths:
+      - _site
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
