@@ -9,9 +9,9 @@ pages:
     - gem install bundler
     - bundle config set path vendor/bundle
     - bundle install --jobs 4
-    - bundle exec jekyll build --config _config.yml,_config_gitlab.yml -s . -d _site
+    - bundle exec jekyll build --config _config.yml,_config_gitlab.yml -s . -d public
   artifacts:
     paths:
-      - _site
+      - public
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
