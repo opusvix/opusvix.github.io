@@ -112,4 +112,4 @@ Maurício Barros
 
 Analista de Dados | BI | Grafos | Neo4j
 
-GitLab: https://gitlab.com/opusvix
+GitHub: https://github.com/opusvix

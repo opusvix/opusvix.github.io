@@ -226,4 +226,4 @@ Este projeto utiliza o formato **PBIR (Power BI Project)**, que permite versiona
 ## 👤 Autor    
   Maurício Barros    
   Analista de Dados    
-  🔗 GitLab: https://gitlab.com/opusvix
+  🔗 GitHub: https://github.com/opusvix

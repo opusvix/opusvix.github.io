@@ -14,7 +14,7 @@ Projeto end-to-end de previsão de vendas utilizando Microsoft Fabric (Lakehouse
 https://opusvix.github.io/sales-forecast-powerbi/
 
 ## 🔗 Repositório:
-https://gitlab.com/opusvix/sales-forecast-powerbi
+https://github.com/opusvix/sales-forecast-powerbi
 
 ## 🎯 Contexto do Projeto
 
@@ -231,6 +231,6 @@ Maurício Barros
 
 Data Analytics | BI | Machine Learning
 
-GitLab: https://gitlab.com/opusvix
+GitHub: https://github.com/opusvix
 
 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/

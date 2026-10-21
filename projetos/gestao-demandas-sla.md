@@ -155,7 +155,7 @@ Maurício Barros
 
 Analista de Dados | BI | Power BI | SQL | IA Generativa
 
-🔗 GitLab: https://gitlab.com/opusvix
+🔗 GitHub: https://github.com/opusvix
 
 🔗 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
 

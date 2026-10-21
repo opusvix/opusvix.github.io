@@ -107,4 +107,4 @@ Este projeto analisa dados históricos de consumo e faturamento de serviços pú
 
 Analista de Dados | BI | Power BI | SQL | Python
 
-🔗 GitHub: [https://gitlab.com/opusvix](https://gitlab.com/opusvix)
+🔗 GitHub: [https://github.com/opusvix](https://github.com/opusvix)

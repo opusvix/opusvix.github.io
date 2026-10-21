@@ -115,4 +115,4 @@ Looker Studio (Dashboards)
 
 ### Maurício Barros
 #### Analista de Dados | BI | Analytics
-🔗 GitLab: https://gitlab.com/opusvix
+🔗 GitHub: https://github.com/opusvix
