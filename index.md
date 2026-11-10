@@ -18,9 +18,9 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
 
   <div class="hero-actions">
     <a class="btn-primary" href="#projetos">Projetos</a>
-    <a class="btn-secondary" href="#projetos">Projetos</a>
-    <a class="btn-secondary" href="https://github.com/opusvix" target="_blank">GitHub</a>
-    <a class="btn-secondary" href="https://www.linkedin.com/in/mauriciodasilvabarros/" target="_blank">LinkedIn</a>
+    <a class="btn-secondary" href="#contato">Contato</a>
+    <a class="btn-secondary" href="https://github.com/opusvix" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn-secondary" href="https://www.linkedin.com/in/mauriciodasilvabarros/" target="_blank" rel="noopener">LinkedIn</a>
   </div>
 </div>
 
@@ -48,13 +48,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/dashboard_porsche_sales"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
         <a
           href="https://porsche-sales-intelligence.opusvix.chatgpt.site"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           Dashboard
         </a>
@@ -77,13 +77,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/glicemia-powerbi"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
         <a
-          href="https://app.powerbi.com/links/mFMycL0Hza"
-          target="_blank"
+          href="https://app.powerbi.com/view?r=eyJrIjoiZmM0OTE1NTgtYTM0MC00MmIyLThkZmYtZmRmZmIxN2VlNGYxIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9"
+          target="_blank" rel="noopener"
         >
           Dashboard
         </a>
@@ -109,13 +109,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/ServicosPublicos"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
         <a
-          href="https://app.powerbi.com/links/szyB3ie72b"
-          target="_blank"
+          href="https://app.powerbi.com/view?r=eyJrIjoiN2ExYTQ2NTgtYjRiZS00NTg0LTkxODktN2RlNzU1YTAwYjRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9"
+          target="_blank" rel="noopener"
         >
           Dashboard
         </a>
@@ -140,13 +140,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/gestao-demandas-sla-powerbi"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
         <a
-          href="https://app.powerbi.com/links/V-rmi3jgC2"
-          target="_blank"
+          href="https://app.powerbi.com/view?r=eyJrIjoiNjMxMmE3NTAtYzg5NS00Yjg0LTk2MDQtZTY1MDBkYjFlYzQ1IiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9"
+          target="_blank" rel="noopener"
         >
           Dashboard
         </a>
@@ -168,13 +168,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/SuporteOperacional-StackGoogle"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
         <a
           href="https://lookerstudio.google.com/s/sD-EnJFnXEU"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           Dashboard
         </a>
@@ -195,7 +195,7 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/streaming-graph-database"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
@@ -216,13 +216,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/sales-forecast-powerbi"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
         <a
-          href="https://app.powerbi.com/groups/9f886897-730b-42bc-aaf8-bdecf6c80798/reports/ca202601-0410-41c3-9980-48b634ab67e4?ctid=da3d1810-8e7f-4c5c-a317-0ccb7ef62b3a&pbi_source=linkShare"
-          target="_blank"
+          href="https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9"
+          target="_blank" rel="noopener"
         >
           Dashboard
         </a>
@@ -248,13 +248,13 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
       <div class="card-links">
         <a
           href="https://github.com/opusvix/logitrack-sql-analytics"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           GitHub
         </a>
         <a
           href="https://app.powerbi.com/view?r=eyJrIjoiZDk5NzgyMWItN2EwOS00NzA0LTgzMDYtNmI3NmJjZmNmZDMyIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           Dashboard
         </a>
@@ -287,15 +287,15 @@ title: Maurício Barros | Analista de Dados • BI & Analytics
     
 👉 Para detalhes técnicos, arquitetura, modelagem e código:
     
-🔎 **GitHub README:** https://github.com/opusvix
+🔎 **GitHub:** [github.com/opusvix](https://github.com/opusvix){:target="_blank" rel="noopener"}
         
-## 👤 Autor    
+## 👤 Contato {#contato}    
   Maurício Barros    
   Analista de Dados  
   
-  💼 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
+  💼 [LinkedIn](https://www.linkedin.com/in/mauriciodasilvabarros/){:target="_blank" rel="noopener"}
   
-  🧑‍💻 GitHub: https://github.com/opusvix
+  🧑‍💻 [GitHub](https://github.com/opusvix){:target="_blank" rel="noopener"}
 
 "Dados bem analisados contam histórias melhores do que achismos."
 
