@@ -1,0 +1,25 @@
+{%- assign t = site.data.i18n[include.l] -%}
+{%- assign p = include.p -%}
+{%- assign c = p[include.l] -%}
+<article class="card{% unless p.destaque %} card-small{% endunless %}">
+  {%- if p.destaque and p.imagem %}
+  <img src="{{ p.imagem }}" alt="{{ c.alt }}" loading="lazy" decoding="async" width="600" height="338">
+  {%- endif %}
+  <h3>{{ c.titulo }}</h3>
+  {%- if p.destaque %}
+  <p><strong>{{ t.problem }}:</strong> {{ c.problema }}</p>
+  <p><strong>{{ t.solution }}:</strong> {{ c.solucao }}</p>
+  <p class="result"><strong>{{ t.result }}:</strong> {{ c.resultado }}</p>
+  {%- if c.nota %}<p class="note">{{ c.nota }}</p>{% endif %}
+  {%- else %}
+  <p>{{ c.resumo }}</p>
+  {%- endif %}
+  <ul class="tags" aria-label="Tags">{% for tag in p.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+  <div class="card-links">
+    {%- if p.links.estudo %}<a href="{{ p.links.estudo }}">{{ t.case_study }}</a>{% endif %}
+    {%- if p.links.app %}<a href="{{ p.links.app }}" target="_blank" rel="noopener">{{ t.open_app }}</a>{% endif %}
+    {%- if p.links.site %}<a href="{{ p.links.site }}" target="_blank" rel="noopener">{{ t.site }}</a>{% endif %}
+    {%- if p.links.dashboard %}<a href="{{ p.links.dashboard }}" target="_blank" rel="noopener">{{ t.dashboard }}</a>{% endif %}
+    {%- if p.links.github %}<a href="{{ p.links.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+  </div>
+</article>

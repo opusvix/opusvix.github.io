@@ -1,0 +1,82 @@
+{%- if page.lang == 'en' %}{% assign l = 'en' %}{% else %}{% assign l = 'pt' %}{% endif -%}
+{%- assign t = site.data.i18n[l] -%}
+{%- assign cv = "https://drive.google.com/file/d/1SHYgzdoNEtkh31RkDU9Jj9x98bFz-7Ls/view?usp=sharing" -%}
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+{% include head.html l=l %}
+</head>
+<body>
+{% include header.html l=l %}
+<main id="conteudo">
+  <section class="hero">
+    <div class="container">
+      <h1>Maurício Barros</h1>
+      <p class="hero-role">{{ t.role }}</p>
+      <p class="hero-tagline">{{ t.tagline }}</p>
+      <p class="hero-intro">{{ t.intro }}</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projetos">{{ t.cta_projects }}</a>
+        <a class="btn" href="{{ cv }}" target="_blank" rel="noopener">{{ t.cta_cv }}</a>
+        <a class="btn" href="https://www.linkedin.com/in/mauriciodasilvabarros/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/opusvix" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2>{{ t.featured }}</h2>
+      <p class="lead">{{ t.featured_lead }}</p>
+      <div class="cards">
+        {%- for p in site.data.projetos %}{% if p.destaque %}
+        {% include project-card.html p=p l=l %}
+        {%- endif %}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="outros" class="section">
+    <div class="container">
+      <h2>{{ t.others }}</h2>
+      <div class="cards cards-small">
+        {%- for p in site.data.projetos %}{% unless p.destaque %}
+        {% include project-card.html p=p l=l %}
+        {%- endunless %}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>{{ t.about }}</h2>
+      <p class="about-text">{{ t.about_text }}</p>
+      <div class="about-grid">
+        <div>
+          <h3>{{ t.skills }}</h3>
+          <ul>{% for s in t.skills_list %}<li>{{ s }}</li>{% endfor %}</ul>
+        </div>
+        <div>
+          <h3>{{ t.tools }}</h3>
+          <ul>{% for s in t.tools_list %}<li>{{ s }}</li>{% endfor %}</ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <div class="container">
+      <h2>{{ t.contact }}</h2>
+      <p>{{ t.contact_text }}</p>
+      <ul class="contact-list">
+        <li>{{ t.email }}: <a href="mailto:mauriciobarros1957@gmail.com">mauriciobarros1957@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/mauriciodasilvabarros/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/opusvix" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="{{ cv }}" target="_blank" rel="noopener">{{ t.cv }}</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+{% include footer.html l=l %}
+</body>
+</html>

@@ -7,7 +7,7 @@ title: "InBody: composição corporal"
 
 App de uma página para acompanhar exames de bioimpedância InBody120 ao longo do tempo, com painel, leitura automática dos indicadores, gráfico de evolução e exportação.
 
-![Painel do app InBody](/assets/projetos/inbody/painel.png)
+![Painel do app InBody](/assets/projetos/inbody/painel.webp)
 
 ## O problema
 
@@ -41,4 +41,3 @@ HTML, CSS e JavaScript num único arquivo, gráficos em SVG e dados guardados no
 
 🔗 [Código e dados no GitHub](https://github.com/opusvix/inbody){:target="_blank" rel="noopener"}
 
-[← Voltar ao portfólio](/#projetos){: .back-home}

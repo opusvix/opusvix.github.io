@@ -1,0 +1,13 @@
+{%- assign t = site.data.i18n[include.l] -%}
+<a class="skip" href="#conteudo">{{ t.skip }}</a>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="{{ t.home }}">Maurício Barros</a>
+    <nav aria-label="{{ t.nav_projects }}">
+      <a href="{{ t.home }}#projetos">{{ t.nav_projects }}</a>
+      <a href="{{ t.home }}#sobre">{{ t.nav_about }}</a>
+      <a href="{{ t.home }}#contato">{{ t.nav_contact }}</a>
+      <a class="lang" href="{{ t.other_lang_url }}" hreflang="{% if include.l == 'pt' %}en{% else %}pt-BR{% endif %}" lang="{% if include.l == 'pt' %}en{% else %}pt-BR{% endif %}" aria-label="{{ t.other_lang_label }}" title="{{ t.other_lang_label }}">{{ t.other_lang }}</a>
+    </nav>
+  </div>
+</header>

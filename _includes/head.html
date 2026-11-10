@@ -1,0 +1,14 @@
+{%- assign t = site.data.i18n[include.l] -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+{% seo %}
+{%- if page.alternate %}
+<link rel="alternate" hreflang="pt-BR" href="{{ site.url }}/">
+<link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+{%- endif %}
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/favicon-180.png">
+<link rel="stylesheet" href="/assets/css/style.css">

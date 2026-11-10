@@ -7,7 +7,7 @@ title: "Controle de Veículos"
 
 Programa de Windows para registrar abastecimentos, lançar manutenções (com lembrete da próxima revisão) e ver quanto o carro ou a moto está custando. Tem versão para celular, que sincroniza com o PC pela rede Wi-Fi da casa, sem passar pela internet.
 
-![Relatórios do Controle de Veículos](/assets/projetos/controle-de-veiculos/relatorios.png)
+![Relatórios do Controle de Veículos](/assets/projetos/controle-de-veiculos/relatorios.webp)
 
 ## O problema
 
@@ -20,7 +20,7 @@ O custo real de um veículo fica espalhado entre notas de posto, recibos de ofic
 - **Relatórios:** filtro por período e por veículo, 12 indicadores, gráfico com 5 indicadores e resumo mês a mês.
 - **Importação** de planilhas (CSV, TSV ou XLSX) para trazer o histórico antigo.
 
-![Manutenções](/assets/projetos/controle-de-veiculos/manutencoes.png)
+![Manutenções](/assets/projetos/controle-de-veiculos/manutencoes.webp)
 
 ## Como o consumo é calculado
 
@@ -44,4 +44,3 @@ Python com Tkinter (só a biblioteca padrão), dados em JSON local, versão web 
 
 🔗 [Site oficial e download](https://controle-de-veiculos.netlify.app/){:target="_blank" rel="noopener"} · [Código no GitHub](https://github.com/opusvix/controle-de-veiculos){:target="_blank" rel="noopener"}
 
-[← Voltar ao portfólio](/#projetos){: .back-home}

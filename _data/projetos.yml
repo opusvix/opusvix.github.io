@@ -1,0 +1,210 @@
+# Para adicionar um projeto: copie um bloco, ajuste os campos e escolha destaque: true/false.
+# A ordem na página segue a ordem deste arquivo.
+- slug: inbody
+  destaque: true
+  imagem: /assets/projetos/inbody/capa.webp
+  tags: [JavaScript, Análise temporal, Saúde]
+  links:
+    estudo: /projetos/inbody.html
+    app: https://opusvix.github.io/inbody/
+    github: https://github.com/opusvix/inbody
+  pt:
+    titulo: "InBody: composição corporal"
+    alt: Painel do app InBody com peso, gordura, massa muscular e gordura visceral
+    problema: cada laudo de bioimpedância mostra só um momento; com os PDFs espalhados, a tendência fica invisível.
+    solucao: app que transforma os laudos InBody120 em série histórica, com leitura automática contra as faixas de referência e exportação em CSV e JSON.
+    resultado: em 4 exames, −8,4 kg de peso e −5,2 kg de gordura, com IMC de 26,4 para 23,6, e o alerta de queda de massa muscular que um laudo isolado não mostra.
+  en:
+    titulo: "InBody: body composition"
+    alt: InBody app dashboard with weight, fat, muscle mass and visceral fat
+    problema: each bioimpedance report shows a single moment; with PDFs scattered around, the trend is invisible.
+    solucao: an app that turns InBody120 reports into a time series, with automatic reading against reference ranges and CSV/JSON export.
+    resultado: across 4 exams, −8.4 kg of weight and −5.2 kg of fat, BMI from 26.4 to 23.6, plus the muscle-loss alert a single report hides.
+
+- slug: controle-financeiro
+  destaque: true
+  imagem: /assets/projetos/controle-financeiro/dashboard.webp
+  tags: [Python, FastAPI, SQLite, React]
+  links:
+    estudo: /projetos/controle-financeiro.html
+    github: https://github.com/opusvix/controle-financeiro
+  pt:
+    titulo: Controle Financeiro
+    alt: Painel do Controle Financeiro com saldos e gastos por categoria
+    problema: contas, cartões e compras de mercado da família espalhados, sem visão do todo.
+    solucao: app desktop que consolida contas e faturas e lê cupons fiscais (NFC-e) item a item, com controle de preços.
+    resultado: cada indicador tem fórmula documentada num dicionário de métricas e é conferido por 140 testes automáticos.
+  en:
+    titulo: Personal Finance Control
+    alt: Personal Finance Control dashboard with balances and spending by category
+    problema: the family's accounts, credit cards and grocery purchases were scattered, with no overall view.
+    solucao: a desktop app that consolidates accounts and card bills and reads Brazilian e-receipts (NFC-e) line by line, with price tracking.
+    resultado: every metric has a documented formula in a metrics dictionary and is checked by 140 automated tests.
+
+- slug: glicemia-app
+  destaque: true
+  imagem: /assets/projetos/glicemia-app/capa.webp
+  tags: [JavaScript, PWA, Análise temporal]
+  links:
+    estudo: /projetos/glicemia-app.html
+    app: https://opusvix.github.io/glicemia/
+    github: https://github.com/opusvix/glicemia
+  pt:
+    titulo: "Glicemia: app de monitoramento"
+    alt: Painel do app Glicemia com média, maior e menor valor e dias na faixa normal
+    problema: medições diárias anotadas em planilha, sem análise no dia a dia.
+    solucao: app instalável no celular (PWA) que registra a medição e calcula os indicadores na hora, com os dados só no aparelho.
+    resultado: média móvel de 7, 14 ou 30 dias, % de dias na faixa normal e comparação fim de semana × dias úteis a cada registro.
+  en:
+    titulo: "Blood Glucose: monitoring app"
+    alt: Blood glucose app dashboard with average, highest and lowest value and days in the normal range
+    problema: daily readings were logged in a spreadsheet, with no day-to-day analysis.
+    solucao: an installable mobile app (PWA) that records each reading and computes the metrics instantly, keeping data on the device.
+    resultado: 7, 14 or 30-day moving average, % of days in the normal range and weekend vs weekday comparison on every entry.
+
+- slug: controle-de-veiculos
+  destaque: true
+  imagem: /assets/projetos/controle-de-veiculos/relatorios.webp
+  tags: [Python, Tkinter, Indicadores]
+  links:
+    estudo: /projetos/controle-de-veiculos.html
+    site: https://controle-de-veiculos.netlify.app/
+    github: https://github.com/opusvix/controle-de-veiculos
+  pt:
+    titulo: Controle de Veículos
+    alt: Tela de relatórios do Controle de Veículos com indicadores e gráfico
+    problema: o custo real do carro fica espalhado entre notas de posto e oficina.
+    solucao: app Windows com versão para celular e sincronização pelo Wi-Fi, para abastecimentos, manutenções e lembretes de revisão.
+    resultado: 12 indicadores por período e veículo, incluindo km/L e R$/km de cada abastecimento.
+  en:
+    titulo: Vehicle Cost Tracker
+    alt: Vehicle Cost Tracker reports screen with metrics and chart
+    problema: the true cost of a car is spread across fuel and repair receipts.
+    solucao: a Windows app with a mobile version synced over Wi-Fi, for fuel-ups, maintenance and service reminders.
+    resultado: 12 metrics by period and vehicle, including km/L and cost per km for every fuel-up.
+
+- slug: porsche
+  destaque: true
+  imagem: /assets/projetos/porsche/capa.webp
+  tags: [React, TypeScript, Qualidade de dados]
+  links:
+    dashboard: https://porsche-sales-intelligence.opusvix.chatgpt.site
+    github: https://github.com/opusvix/dashboard_porsche_sales
+  pt:
+    titulo: Porsche Enterprise Sales Intelligence
+    alt: Capa do dashboard Enterprise Sales Intelligence
+    problema: a diretoria precisa comparar vendas entre períodos e chegar até a transação.
+    solucao: dashboard executivo com KPIs, comparação temporal, drill-through e detalhamento transacional.
+    resultado: tratamento de qualidade que separa os 76 de 100 registros com data válida, para que a evolução mensal não seja distorcida.
+    nota: Projeto de estudo, sem afiliação com a Porsche.
+  en:
+    titulo: Porsche Enterprise Sales Intelligence
+    alt: Enterprise Sales Intelligence dashboard cover
+    problema: leadership needs to compare sales across periods and drill down to the transaction.
+    solucao: an executive dashboard with KPIs, period comparison, drill-through and transaction detail.
+    resultado: a data-quality step isolates the 76 of 100 records with a valid date, so the monthly trend is not distorted.
+    nota: Study project, not affiliated with Porsche.
+
+- slug: logitrack
+  destaque: true
+  imagem: /assets/projetos/logitrack/dashboard.webp
+  tags: [PostgreSQL, SQL, Power BI, Docker]
+  links:
+    estudo: /projetos/logitrack-sql-analytics.html
+    dashboard: https://app.powerbi.com/view?r=eyJrIjoiZDk5NzgyMWItN2EwOS00NzA0LTgzMDYtNmI3NmJjZmNmZDMyIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9
+    github: https://github.com/opusvix/logitrack-sql-analytics
+  pt:
+    titulo: "LogiTrack: SQL Analytics"
+    alt: Dashboard de análise logística no Power BI
+    problema: consultas lentas numa base logística de 2,1 milhões de registros.
+    solucao: particionamento das tabelas por data no PostgreSQL e KPIs operacionais no Power BI.
+    resultado: a consulta caiu de 551 ms para 0,034 ms.
+  en:
+    titulo: "LogiTrack: SQL Analytics"
+    alt: Logistics analysis dashboard in Power BI
+    problema: slow queries on a logistics database with 2.1 million records.
+    solucao: date-based table partitioning in PostgreSQL and operational KPIs in Power BI.
+    resultado: query time dropped from 551 ms to 0.034 ms.
+
+- slug: sales-forecast
+  destaque: false
+  tags: [Microsoft Fabric, SQL, Power BI]
+  links:
+    estudo: /projetos/sales-forecast-ml.html
+    dashboard: https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9
+    github: https://github.com/opusvix/sales-forecast-powerbi
+  pt:
+    titulo: Previsão de Vendas com Microsoft Fabric
+    resumo: Pipeline Dataflow Gen2 → Lakehouse → Warehouse, forecast em SQL e realizado × previsto no Power BI.
+  en:
+    titulo: Sales Forecast with Microsoft Fabric
+    resumo: Dataflow Gen2 → Lakehouse → Warehouse pipeline, SQL forecast and actual vs forecast in Power BI.
+
+- slug: glicemia-powerbi
+  destaque: false
+  tags: [Power BI, DAX, PBIP]
+  links:
+    estudo: /projetos/monitoramento-glicemia.html
+    dashboard: https://app.powerbi.com/view?r=eyJrIjoiZmM0OTE1NTgtYTM0MC00MmIyLThkZmYtZmRmZmIxN2VlNGYxIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9
+    github: https://github.com/opusvix/glicemia-powerbi
+  pt:
+    titulo: Glicemia no Power BI
+    resumo: Padrões por refeição, rotina e dia da semana em 4 páginas, com tabela calendário e média móvel em DAX.
+  en:
+    titulo: Blood Glucose in Power BI
+    resumo: Patterns by meal, routine and weekday across 4 pages, with a calendar table and moving average in DAX.
+
+- slug: servicos-publicos
+  destaque: false
+  tags: [Power BI, DAX, ESG]
+  links:
+    estudo: /projetos/servicos-publicos-energia.html
+    dashboard: https://app.powerbi.com/view?r=eyJrIjoiN2ExYTQ2NTgtYjRiZS00NTg0LTkxODktN2RlNzU1YTAwYjRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9
+    github: https://github.com/opusvix/ServicosPublicos
+  pt:
+    titulo: Serviços Públicos & Energia Solar
+    resumo: Custo de energia e saneamento com e sem os créditos de energia solar, economia acumulada e CO₂ evitado.
+  en:
+    titulo: Utilities & Solar Energy
+    resumo: Power and water costs with and without solar credits, cumulative savings and CO₂ avoided.
+
+- slug: gestao-demandas-sla
+  destaque: false
+  tags: [Power BI, SharePoint]
+  links:
+    estudo: /projetos/gestao-demandas-sla.html
+    dashboard: https://app.powerbi.com/view?r=eyJrIjoiNjMxMmE3NTAtYzg5NS00Yjg0LTk2MDQtZTY1MDBkYjFlYzQ1IiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9
+    github: https://github.com/opusvix/gestao-demandas-sla-powerbi
+  pt:
+    titulo: Gestão de Demandas & SLA
+    resumo: SLA, backlog e produtividade por responsável, com SharePoint como fonte e modelo em estrela.
+  en:
+    titulo: Request Management & SLA
+    resumo: SLA, backlog and productivity by owner, with SharePoint as the source and a star schema.
+
+- slug: suporte-operacional
+  destaque: false
+  tags: [BigQuery, Looker Studio, GCP]
+  links:
+    estudo: /projetos/suporte-operacional-google.html
+    dashboard: https://lookerstudio.google.com/s/sD-EnJFnXEU
+    github: https://github.com/opusvix/SuporteOperacional-StackGoogle
+  pt:
+    titulo: Suporte Operacional (stack Google)
+    resumo: Pipeline Google Sheets → BigQuery → Looker Studio com SLA, volume, backlog e tendências.
+  en:
+    titulo: Operations Support (Google stack)
+    resumo: Google Sheets → BigQuery → Looker Studio pipeline with SLA, volume, backlog and trends.
+
+- slug: streaming-graph
+  destaque: false
+  tags: [Neo4j, Cypher]
+  links:
+    estudo: /projetos/streaming-graph-neo4j.html
+    github: https://github.com/opusvix/streaming-graph-database
+  pt:
+    titulo: Banco de grafos para streaming
+    resumo: Modelo de usuários, filmes, séries, gêneros e atores em Neo4j para consultas de recomendação.
+  en:
+    titulo: Graph database for streaming
+    resumo: A Neo4j model of users, movies, series, genres and actors for recommendation queries.

@@ -150,7 +150,7 @@ AVERAGEX (
 ## 🖼️ Prints do Dashboard
 
 ### 🔹 Visão Geral
-![Visão Geral](/assets/projetos/glicemia-powerbi/visao-geral.png)
+![Visão Geral](/assets/projetos/glicemia-powerbi/visao-geral.webp)
 
 **Descrição:**  
 Evolução da glicemia em jejum ao longo do tempo, indicadores principais e média móvel para identificação de tendências.
@@ -158,7 +158,7 @@ Evolução da glicemia em jejum ao longo do tempo, indicadores principais e méd
 ---
 
 ### 🔹 Análise por Refeição
-![Análise por Refeição](/assets/projetos/glicemia-powerbi/refeicoes.png)
+![Análise por Refeição](/assets/projetos/glicemia-powerbi/refeicoes.webp)
 
 **Descrição:**  
 Comparação entre glicemia em jejum, antes do almoço e antes do jantar, destacando variações e padrões ao longo do dia.
@@ -166,7 +166,7 @@ Comparação entre glicemia em jejum, antes do almoço e antes do jantar, destac
 ---
 
 ### 🔹 Rotina e Comportamento
-![Rotina e Comportamento](/assets/projetos/glicemia-powerbi/rotina.png)
+![Rotina e Comportamento](/assets/projetos/glicemia-powerbi/rotina.webp)
 
 **Descrição:**  
 Comparação entre dias úteis e fins de semana e análise da relação entre horário das refeições e níveis glicêmicos.
@@ -174,7 +174,7 @@ Comparação entre dias úteis e fins de semana e análise da relação entre ho
 ---
 
 ### 🔹 Detalhamento Diário
-![Detalhamento Diário](/assets/projetos/glicemia-powerbi/detalhamento.png)
+![Detalhamento Diário](/assets/projetos/glicemia-powerbi/detalhamento.webp)
 
 **Descrição:**  
 Visão detalhada por data com formatação condicional e observações, permitindo identificar dias críticos.
@@ -226,4 +226,3 @@ Este projeto utiliza o formato **PBIR (Power BI Project)**, que permite versiona
   Analista de Dados    
   🔗 GitHub: https://github.com/opusvix
 
-[← Voltar ao portfólio](/#projetos){: .back-home}

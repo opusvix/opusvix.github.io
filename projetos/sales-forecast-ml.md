@@ -8,7 +8,7 @@ title: "Previsão de Vendas com Microsoft Fabric"
 Projeto end-to-end de previsão de vendas utilizando Microsoft Fabric (Lakehouse + Warehouse), modelagem dimensional em SQL e visualização estratégica no Power BI.
 
 ## 🚀 Dashboard Interativo
-<p align="center"> <a href="https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9" target="_blank"> <img src="/assets/projetos/sales-forecast/dashboard.png" width="850" alt="Dashboard realizado versus previsto"> </a> </p> <p align="center"> 🔎 Clique na imagem para explorar o dashboard completo </p>
+<p align="center"> <a href="https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9" target="_blank"> <img src="/assets/projetos/sales-forecast/dashboard.webp" width="850" alt="Dashboard realizado versus previsto"> </a> </p> <p align="center"> 🔎 Clique na imagem para explorar o dashboard completo </p>
 
 ## 🔗 Documentação (GitHub Pages):
 https://opusvix.github.io/sales-forecast-powerbi/
@@ -107,7 +107,7 @@ Relacionamento:
 
 fact_sales.date → dim_date.date
 
-![Modelo de dados](/assets/projetos/sales-forecast/modelo.png)
+![Modelo de dados](/assets/projetos/sales-forecast/modelo.webp)
 
 ## 🧠 Lógica de Forecast
 
@@ -237,4 +237,3 @@ GitHub: https://github.com/opusvix
 
 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
 
-[← Voltar ao portfólio](/#projetos){: .back-home}

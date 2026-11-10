@@ -18,7 +18,7 @@ focado em otimização de consultas SQL e performance em PostgreSQL.
 
 ## 🏗 Modelo de dados
 
-![Modelo de dados](/assets/projetos/logitrack/modelo-dados.png)
+![Modelo de dados](/assets/projetos/logitrack/modelo-dados.webp)
 
 ---
 
@@ -51,7 +51,7 @@ focado em otimização de consultas SQL e performance em PostgreSQL.
 
 ## 📈 Dashboard Power BI
 
-![Dashboard](/assets/Logistica.png)
+![Dashboard](/assets/projetos/logitrack/dashboard.webp)
 
 ---
 
@@ -66,7 +66,7 @@ focused on SQL optimization and partitioning strategies.
 
 ## 🏗 Data model
 
-![Data model](/assets/projetos/logitrack/modelo-dados.png)
+![Data model](/assets/projetos/logitrack/modelo-dados.webp)
 
 ---
 
@@ -81,8 +81,7 @@ focused on SQL optimization and partitioning strategies.
 
 ## 📊 Dashboard
 
-![Dashboard](/assets/Logistica.png)
+![Dashboard](/assets/projetos/logitrack/dashboard.webp)
 
 ---
 
-[← Voltar ao portfólio](/#projetos){: .back-home}
