@@ -1,0 +1,16 @@
+{%- if page.lang == 'en' %}{% assign l = 'en' %}{% else %}{% assign l = 'pt' %}{% endif -%}
+{%- assign t = site.data.i18n[l] -%}
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+{% include head.html l=l %}
+</head>
+<body>
+{% include header.html l=l %}
+<main id="conteudo" class="container prose">
+{{ content }}
+<p><a class="back-home" href="{{ t.home }}#projetos">← {{ t.back }}</a></p>
+</main>
+{% include footer.html l=l %}
+</body>
+</html>

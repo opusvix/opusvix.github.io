@@ -44,13 +44,13 @@ Este projeto analisa dados históricos de consumo e faturamento de serviços pú
 
 ## 🖼️ Prints do Dashboard
 
-![Visão Geral](/assets/projetos/servicos-publicos/pagina1.png)
+![Visão Geral](/assets/projetos/servicos-publicos/pagina1.webp)
 
-![Consumo e Eficiência](/assets/projetos/servicos-publicos/pagina2.png)
+![Consumo e Eficiência](/assets/projetos/servicos-publicos/pagina2.webp)
 
-![Energia Solar e ESG](/assets/projetos/servicos-publicos/pagina3.png)
+![Energia Solar e ESG](/assets/projetos/servicos-publicos/pagina3.webp)
 
-![Detalhamento Anual](/assets/projetos/servicos-publicos/pagina4.png)
+![Detalhamento Anual](/assets/projetos/servicos-publicos/pagina4.webp)
 
 📊 **Dashboard interativo:** [abrir no Power BI](https://app.powerbi.com/view?r=eyJrIjoiN2ExYTQ2NTgtYjRiZS00NTg0LTkxODktN2RlNzU1YTAwYjRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"}
 
@@ -113,4 +113,3 @@ Analista de Dados | BI | Power BI | SQL | Python
 
 🔗 GitHub: [https://github.com/opusvix](https://github.com/opusvix)
 
-[← Voltar ao portfólio](/#projetos){: .back-home}

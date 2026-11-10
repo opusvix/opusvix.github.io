@@ -1,0 +1,91 @@
+pt:
+  lang_name: Português
+  other_lang: EN
+  other_lang_label: Read in English
+  other_lang_url: /en/
+  home: /
+  nav_projects: Projetos
+  nav_about: Sobre
+  nav_contact: Contato
+  role: Analista de Dados
+  tagline: SQL · Power BI · Python · BigQuery · Microsoft Fabric
+  intro: Transformo dados operacionais e financeiros em indicadores que apoiam decisões, do tratamento e modelagem em SQL até o dashboard e o aplicativo que entrega o número certo para quem decide.
+  cta_projects: Ver projetos
+  cta_cv: Baixar currículo
+  featured: Projetos em destaque
+  featured_lead: Cada projeto mostra o problema, o que construí e o resultado.
+  others: Outros projetos
+  problem: Problema
+  solution: Solução
+  result: Resultado
+  case_study: Estudo de caso
+  open_app: Abrir app
+  dashboard: Dashboard
+  site: Site
+  about: Sobre
+  about_text: Sou Analista de Dados formado em Banco de Dados. Trabalho com o ciclo completo da análise, desde entender a pergunta de negócio, tratar e modelar os dados em SQL e definir os indicadores até entregar a resposta em dashboard ou aplicativo. Versiono meus relatórios Power BI em Git (PBIP/PBIR) e documento a fórmula de cada métrica.
+  skills: Competências
+  skills_list:
+    - Análise exploratória e qualidade de dados
+    - SQL e modelagem dimensional
+    - Dashboards executivos e storytelling com dados
+    - Automação de processos analíticos
+  tools: Ferramentas
+  tools_list:
+    - SQL (PostgreSQL, BigQuery, SQLite)
+    - Power BI, DAX, Looker Studio
+    - Python, Microsoft Fabric
+    - Git, GitHub, Docker
+  contact: Contato
+  contact_text: Estou aberto a vagas de Analista de Dados. Fale comigo.
+  email: E-mail
+  cv: Currículo (PDF)
+  back: Voltar ao portfólio
+  case_lang_note: ""
+  footer: Portfólio de Maurício Barros
+  skip: Pular para o conteúdo
+en:
+  lang_name: English
+  other_lang: PT
+  other_lang_label: Ler em português
+  other_lang_url: /
+  home: /en/
+  nav_projects: Projects
+  nav_about: About
+  nav_contact: Contact
+  role: Data Analyst
+  tagline: SQL · Power BI · Python · BigQuery · Microsoft Fabric
+  intro: I turn operational and financial data into metrics that support decisions, from cleaning and modeling in SQL to the dashboard or app that puts the right number in front of the decision maker.
+  cta_projects: See projects
+  cta_cv: Download résumé
+  featured: Featured projects
+  featured_lead: Each project shows the problem, what I built and the result.
+  others: Other projects
+  problem: Problem
+  solution: Solution
+  result: Result
+  case_study: Case study (PT)
+  open_app: Open app
+  dashboard: Dashboard
+  site: Website
+  about: About
+  about_text: I am a Data Analyst with a degree in Databases. I work across the whole analysis cycle, from understanding the business question, cleaning and modeling data in SQL and defining the metrics to delivering the answer as a dashboard or an app. I version my Power BI reports in Git (PBIP/PBIR) and document the formula behind every metric.
+  skills: Skills
+  skills_list:
+    - Exploratory analysis and data quality
+    - SQL and dimensional modeling
+    - Executive dashboards and data storytelling
+    - Analytics process automation
+  tools: Tools
+  tools_list:
+    - SQL (PostgreSQL, BigQuery, SQLite)
+    - Power BI, DAX, Looker Studio
+    - Python, Microsoft Fabric
+    - Git, GitHub, Docker
+  contact: Contact
+  contact_text: I am open to Data Analyst roles. Get in touch.
+  email: Email
+  cv: Résumé (PDF)
+  back: Back to portfolio
+  footer: Maurício Barros portfolio
+  skip: Skip to content

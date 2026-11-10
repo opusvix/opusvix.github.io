@@ -1,6 +1,31 @@
-theme: jekyll-theme-minimal
 title: Maurício Barros
-description: Analista de Dados - BI & Analytics
+description: Analista de Dados · SQL, Power BI, Python, BigQuery e Microsoft Fabric
 url: https://opusvix.github.io
 lang: pt-BR
 locale: pt_BR
+author: Maurício Barros
+image: /assets/img/og-image.png
+logo: /assets/img/favicon-512.png
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: pt-BR
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - public
+  - _config_gitlab.yml

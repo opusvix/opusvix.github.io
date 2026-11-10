@@ -7,7 +7,7 @@ title: "Controle Financeiro"
 
 App de finanças pessoais da família: contas, cartões de crédito, transações, leitura de cupons fiscais (NFC-e) item a item e controle de preços. Roda no próprio computador, com os dados num arquivo local.
 
-![Painel do Controle Financeiro](/assets/projetos/controle-financeiro/dashboard.png)
+![Painel do Controle Financeiro](/assets/projetos/controle-financeiro/dashboard.webp)
 
 ## O problema
 
@@ -22,7 +22,7 @@ Apps de mercado mostram números que não batem entre si. No app que eu usava an
 - **NFC-e sem duplicidade:** o QR Code identifica a nota (CNPJ, série, número) e impede lançar a mesma nota duas vezes.
 - **Backup automático** dos últimos 7 dias, 4 semanas e 12 meses, com cópia no Google Drive.
 
-![Tela de transações](/assets/projetos/controle-financeiro/transacoes.png)
+![Tela de transações](/assets/projetos/controle-financeiro/transacoes.webp)
 
 ## Resultado
 
@@ -38,4 +38,3 @@ Backend FastAPI + SQLite, frontend React + Vite + TypeScript, testes com pytest 
 
 🔗 [Código no GitHub](https://github.com/opusvix/controle-financeiro){:target="_blank" rel="noopener"} · [Dicionário de métricas completo](https://github.com/opusvix/controle-financeiro/blob/main/docs/METRICAS.md){:target="_blank" rel="noopener"}
 
-[← Voltar ao portfólio](/#projetos){: .back-home}

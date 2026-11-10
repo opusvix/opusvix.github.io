@@ -8,8 +8,8 @@ title: "Glicemia: app de monitoramento"
 App instalável no celular (PWA) para registrar a glicemia em jejum todos os dias e acompanhar os indicadores na hora. Os dados ficam só no aparelho; a sincronização entre aparelhos é opcional.
 
 <div class="phone-shots">
-  <img src="/assets/projetos/glicemia-app/painel.png" alt="Painel com média, maior e menor valor e dias na faixa normal" loading="lazy">
-  <img src="/assets/projetos/glicemia-app/relatorio.png" alt="Relatório com gráfico e média móvel" loading="lazy">
+  <img src="/assets/projetos/glicemia-app/painel.webp" alt="Painel com média, maior e menor valor e dias na faixa normal" loading="lazy">
+  <img src="/assets/projetos/glicemia-app/relatorio.webp" alt="Relatório com gráfico e média móvel" loading="lazy">
 </div>
 
 *Telas com dados fictícios de demonstração.*
@@ -37,4 +37,3 @@ JavaScript puro, PWA (service worker e manifesto para instalar no celular), arma
 
 🔗 [Abrir o app](https://opusvix.github.io/glicemia/){:target="_blank" rel="noopener"} · [Código no GitHub](https://github.com/opusvix/glicemia){:target="_blank" rel="noopener"}
 
-[← Voltar ao portfólio](/#projetos){: .back-home}
