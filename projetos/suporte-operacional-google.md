@@ -36,7 +36,7 @@ Looker Studio (Dashboards)
 ```
 📌 O projeto prioriza boas práticas de modelagem, separação entre dados brutos e tratados e storytelling analítico.
 
-![Arquitetura](arquitetura/arquitetura_pipeline.png)
+![Arquitetura](/assets/projetos/suporte-operacional/arquitetura.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -61,7 +61,7 @@ Looker Studio (Dashboards)
 
 - Distribuição por status, unidade e prioridade
 
-![Visão Geral](looker/pagina_1_visao_geral.png)
+![Visão Geral](/assets/projetos/suporte-operacional/visao-geral.png)
 
 ### 📍 Página 2 — Análise Operacional
 
@@ -75,7 +75,7 @@ Looker Studio (Dashboards)
 
 - Tabela analítica de atendimentos
 
-![Análise Operacional](looker/pagina_2_analise_operacional.png)
+![Análise Operacional](/assets/projetos/suporte-operacional/analise-operacional.png)
 
 ### 📍 Página 3 — Tendências & Planejamento
 
@@ -89,7 +89,7 @@ Looker Studio (Dashboards)
 
 - Apoio ao planejamento de capacidade
 
-![Tendencias](looker/pagina_3_tendencias_planejamento.png)
+![Tendencias](/assets/projetos/suporte-operacional/tendencias.png)
 
 ## 📈 Principais Insights Simulados
 
@@ -116,3 +116,5 @@ Looker Studio (Dashboards)
 ### Maurício Barros
 #### Analista de Dados | BI | Analytics
 🔗 GitHub: https://github.com/opusvix
+
+[← Voltar ao portfólio](/#projetos){: .back-home}
