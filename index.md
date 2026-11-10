@@ -38,6 +38,7 @@ title: Maurício Barros | Analista de Dados
       <div class="tags"><span>JavaScript</span><span>Análise temporal</span><span>Saúde</span></div>
       <div class="card-links">
         <a href="projetos/inbody.html">Estudo de caso</a>
+        <a href="https://opusvix.github.io/inbody/" target="_blank" rel="noopener">Abrir app</a>
         <a href="https://github.com/opusvix/inbody" target="_blank" rel="noopener">GitHub</a>
       </div>
     </article>
