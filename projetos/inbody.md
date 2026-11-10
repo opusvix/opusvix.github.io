@@ -39,5 +39,5 @@ A série mostra o que um laudo isolado esconde: a perda foi concentrada na gordu
 
 HTML, CSS e JavaScript num único arquivo, gráficos em SVG e dados guardados no navegador (`localStorage`), sem servidor.
 
-🔗 [Código e dados no GitHub](https://github.com/opusvix/inbody){:target="_blank" rel="noopener"}
+🔗 [Abrir o app](https://opusvix.github.io/inbody/){:target="_blank" rel="noopener"} · [Código e dados no GitHub](https://github.com/opusvix/inbody){:target="_blank" rel="noopener"}
 
