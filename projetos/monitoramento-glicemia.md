@@ -1,11 +1,7 @@
 ---
 layout: default
-title: "Visão Geral"
+title: "Glicemia no Power BI"
 ---
-
-<p align="center">
-  <img src="images/Glicemia.png" alt="Monitoramento de Glicemia" width="600"/>
-</p>
 
 <h1 align="center">📊 Monitoramento e Análise de Glicemia com Power BI</h1>
 
@@ -154,7 +150,7 @@ AVERAGEX (
 ## 🖼️ Prints do Dashboard
 
 ### 🔹 Visão Geral
-![Visão Geral](images/dash_visao_geral.png)
+![Visão Geral](/assets/projetos/glicemia-powerbi/visao-geral.png)
 
 **Descrição:**  
 Evolução da glicemia em jejum ao longo do tempo, indicadores principais e média móvel para identificação de tendências.
@@ -162,7 +158,7 @@ Evolução da glicemia em jejum ao longo do tempo, indicadores principais e méd
 ---
 
 ### 🔹 Análise por Refeição
-![Análise por Refeição](images/dash_refeicoes.png)
+![Análise por Refeição](/assets/projetos/glicemia-powerbi/refeicoes.png)
 
 **Descrição:**  
 Comparação entre glicemia em jejum, antes do almoço e antes do jantar, destacando variações e padrões ao longo do dia.
@@ -170,7 +166,7 @@ Comparação entre glicemia em jejum, antes do almoço e antes do jantar, destac
 ---
 
 ### 🔹 Rotina e Comportamento
-![Rotina e Comportamento](images/dash_rotina.png)
+![Rotina e Comportamento](/assets/projetos/glicemia-powerbi/rotina.png)
 
 **Descrição:**  
 Comparação entre dias úteis e fins de semana e análise da relação entre horário das refeições e níveis glicêmicos.
@@ -178,7 +174,7 @@ Comparação entre dias úteis e fins de semana e análise da relação entre ho
 ---
 
 ### 🔹 Detalhamento Diário
-![Detalhamento Diário](images/dash_detalhamento.png)
+![Detalhamento Diário](/assets/projetos/glicemia-powerbi/detalhamento.png)
 
 **Descrição:**  
 Visão detalhada por data com formatação condicional e observações, permitindo identificar dias críticos.
@@ -194,7 +190,9 @@ A tabela **Detalhamento Diário** utiliza cores para facilitar a leitura dos ní
 Essa padronização permite rápida identificação de padrões e situações críticas.
 
 
-## 🔗 Links clicáveis
+## 🔗 Links
+
+📊 **Dashboard interativo:** [abrir no Power BI](https://app.powerbi.com/view?r=eyJrIjoiZmM0OTE1NTgtYTM0MC00MmIyLThkZmYtZmRmZmIxN2VlNGYxIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"}
 
 ## 📊 Relatório Power BI (PBIR)
 
@@ -212,13 +210,13 @@ Este projeto utiliza o formato **PBIR (Power BI Project)**, que permite versiona
 3. O relatório será carregado automaticamente
 
 📂 **Power BI Project (.PBIR):**  
-🔗 [Estrutura do Relatório Power BI (PBIR)](powerbi/Monitoramento%20e%20Análise%20de%20Glicemia%20com%20Power%20BI.Report)
+🔗 [Estrutura do Relatório Power BI (PBIR)](https://github.com/opusvix/glicemia-powerbi)
 
 📘 **Storytelling do Projeto:**  
-[Leia o storytelling completo](docs/storytelling.md)
+[Leia o storytelling completo](https://github.com/opusvix/glicemia-powerbi/blob/main/docs/storytelling.md)
 
 🖼️ **Imagens do Dashboard:**  
-[Ver todos os prints](images/)
+[Ver todos os prints](https://github.com/opusvix/glicemia-powerbi/tree/main/images)
 
 🔗 **Post no LinkedIn:**  
 [Veja o post completo no LinkedIn](https://www.linkedin.com/in/mauriciodasilvabarros/)
@@ -227,3 +225,5 @@ Este projeto utiliza o formato **PBIR (Power BI Project)**, que permite versiona
   Maurício Barros    
   Analista de Dados    
   🔗 GitHub: https://github.com/opusvix
+
+[← Voltar ao portfólio](/#projetos){: .back-home}

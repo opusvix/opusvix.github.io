@@ -67,6 +67,8 @@ gestao-demandas-sla-powerbi/
 
 - Relacionamentos unidirecionais
 
+![Modelo de dados](/assets/projetos/gestao-demandas-sla/modelo-dados.png)
+
 - Granularidade: demanda individual
 
 📌 Colunas técnicas do SharePoint foram descartadas, mantendo apenas atributos analíticos.
@@ -105,7 +107,13 @@ O dashboard foi estruturado com foco em:
 
 - Destaque visual para desvios de prazo
 
-📷 Imagens do dashboard podem ser encontradas na pasta /imagens.
+![Visão geral](/assets/projetos/gestao-demandas-sla/visao-geral.png)
+
+![SLA e eficiência](/assets/sla-eficiencia.png)
+
+![Backlog e produtividade](/assets/projetos/gestao-demandas-sla/backlog-produtividade.png)
+
+📊 **Dashboard interativo:** [abrir no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNjMxMmE3NTAtYzg5NS00Yjg0LTk2MDQtZTY1MDBkYjFlYzQ1IiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"}
 
 ---
 
@@ -159,3 +167,4 @@ Analista de Dados | BI | Power BI | SQL | IA Generativa
 
 🔗 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
 
+[← Voltar ao portfólio](/#projetos){: .back-home}

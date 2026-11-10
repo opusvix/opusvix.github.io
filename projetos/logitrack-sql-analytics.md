@@ -16,9 +16,9 @@ focado em otimização de consultas SQL e performance em PostgreSQL.
 
 ---
 
-## 🏗 Arquitetura
+## 🏗 Modelo de dados
 
-![Arquitetura](/assets/arquitetura_pipeline.png)
+![Modelo de dados](/assets/projetos/logitrack/modelo-dados.png)
 
 ---
 
@@ -64,9 +64,9 @@ focused on SQL optimization and partitioning strategies.
 
 ---
 
-## 🏗 Architecture
+## 🏗 Data model
 
-![Architecture](/assets/arquitetura_pipeline.png)
+![Data model](/assets/projetos/logitrack/modelo-dados.png)
 
 ---
 
@@ -85,4 +85,4 @@ focused on SQL optimization and partitioning strategies.
 
 ---
 
-[⬅ Back to Home](../index)
+[← Voltar ao portfólio](/#projetos){: .back-home}

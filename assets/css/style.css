@@ -201,6 +201,7 @@ margin-top: 12px;
 padding: 40px 24px;
 margin: 24px;
 }
+}
 
 /* HEADER FIXO */
 .language-header {
@@ -357,4 +358,132 @@ margin: 24px;
   .project-card {
     flex: 1 1 100%;
   }
+}
+
+
+/* ========================= */
+/* FASE 2: CONTEÚDO           */
+/* ========================= */
+.hero-role {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin: 0;
+}
+
+.hero-tagline {
+  color: #4b5563;
+  margin: 8px auto 0;
+}
+
+section {
+  margin-bottom: 64px;
+}
+
+.section-lead {
+  color: #4b5563;
+  margin-top: -20px;
+  margin-bottom: 28px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.card p {
+  margin: 0 0 10px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.card .result {
+  background: #eff6ff;
+  border-left: 3px solid #2563eb;
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: #1e3a8a;
+}
+
+.card .note {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.card .card-links {
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
+.cards-small {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card-small h3 {
+  font-size: 1.05rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.about-grid h3 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 8px;
+  overflow-wrap: anywhere;
+}
+
+.wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper .card img {
+  height: 180px;
+}
+
+.back-home {
+  display: inline-block;
+  margin: 24px 0 8px;
+}
+
+.phone-shots {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.phone-shots img {
+  width: calc(50% - 8px);
+  max-width: 280px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+}
+
+/* URLs longas não podem alargar a página no celular */
+.wrapper p,
+.wrapper li,
+.wrapper td {
+  overflow-wrap: anywhere;
+}
+
+.wrapper pre {
+  overflow-x: auto;
 }

@@ -3,14 +3,6 @@ layout: default
 title: "Serviços Públicos & Energia Solar"
 ---
 
-<div align="center">
-  <img src="imagens/Cesan.png" alt="CESAN" height="60" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="imagens/Escelsa.png" alt="EDP Escelsa" height="60" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="imagens/Solar.png" alt="EDP Solar" height="60" />
-</div>
-
 # Serviços Públicos & Energia Solar
 ### Análise de Consumo, Custos e Créditos de Energia Solar (Power BI)
 
@@ -49,6 +41,18 @@ Este projeto analisa dados históricos de consumo e faturamento de serviços pú
 - **Página 4 – Detalhamento Anual**
   - Análise consolidada por ano
   - Apoio à tomada de decisão estratégica
+
+## 🖼️ Prints do Dashboard
+
+![Visão Geral](/assets/projetos/servicos-publicos/pagina1.png)
+
+![Consumo e Eficiência](/assets/projetos/servicos-publicos/pagina2.png)
+
+![Energia Solar e ESG](/assets/projetos/servicos-publicos/pagina3.png)
+
+![Detalhamento Anual](/assets/projetos/servicos-publicos/pagina4.png)
+
+📊 **Dashboard interativo:** [abrir no Power BI](https://app.powerbi.com/view?r=eyJrIjoiN2ExYTQ2NTgtYjRiZS00NTg0LTkxODktN2RlNzU1YTAwYjRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"}
 
 ## 🧩 Modelagem de Dados
 - Modelo em estrela
@@ -108,3 +112,5 @@ Este projeto analisa dados históricos de consumo e faturamento de serviços pú
 Analista de Dados | BI | Power BI | SQL | Python
 
 🔗 GitHub: [https://github.com/opusvix](https://github.com/opusvix)
+
+[← Voltar ao portfólio](/#projetos){: .back-home}

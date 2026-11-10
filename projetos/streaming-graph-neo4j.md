@@ -49,7 +49,7 @@ Exemplo: (User)-[:WATCHED {rating}]->(Movie | Series)
 
 O diagrama abaixo foi criado utilizando o **Arrows.app**, ferramenta visual para modelagem em grafos compatível com Neo4j.
 
-[Modelo de Grafo](diagrams/graph-model-arrows.png)
+![Modelo de Grafo](/assets/projetos/streaming-graph/modelo-grafo.png)
 
 ---
 
@@ -113,3 +113,5 @@ Maurício Barros
 Analista de Dados | BI | Grafos | Neo4j
 
 GitHub: https://github.com/opusvix
+
+[← Voltar ao portfólio](/#projetos){: .back-home}
