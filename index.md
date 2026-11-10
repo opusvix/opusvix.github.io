@@ -30,6 +30,19 @@ title: Maurício Barros | Analista de Dados
   <div class="cards">
 
     <article class="card">
+      <img src="assets/projetos/inbody/capa.png" alt="Painel do app InBody com peso, gordura, massa muscular e gordura visceral" loading="lazy">
+      <h3>InBody: composição corporal</h3>
+      <p><strong>Problema:</strong> cada laudo de bioimpedância mostra só um momento; com os PDFs espalhados, a tendência fica invisível.</p>
+      <p><strong>Solução:</strong> app que transforma os laudos InBody120 em série histórica, com leitura automática contra as faixas de referência e exportação em CSV e JSON.</p>
+      <p class="result"><strong>Resultado:</strong> em 4 exames, −8,4 kg de peso e −5,2 kg de gordura, com IMC de 26,4 para 23,6, e o alerta de queda de massa muscular que um laudo isolado não mostra.</p>
+      <div class="tags"><span>JavaScript</span><span>Análise temporal</span><span>Saúde</span></div>
+      <div class="card-links">
+        <a href="projetos/inbody.html">Estudo de caso</a>
+        <a href="https://github.com/opusvix/inbody" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
+
+    <article class="card">
       <img src="assets/projetos/controle-financeiro/dashboard.png" alt="Painel do Controle Financeiro com saldos e gastos por categoria" loading="lazy">
       <h3>Controle Financeiro</h3>
       <p><strong>Problema:</strong> contas, cartões e compras de mercado da família espalhados, sem visão do todo.</p>
@@ -98,19 +111,6 @@ title: Maurício Barros | Analista de Dados
       </div>
     </article>
 
-    <article class="card">
-      <img src="assets/projetos/sales-forecast/dashboard.png" alt="Dashboard de vendas realizadas versus previstas" loading="lazy">
-      <h3>Previsão de Vendas com Microsoft Fabric</h3>
-      <p><strong>Problema:</strong> metas comerciais definidas sem uma projeção de vendas confiável.</p>
-      <p><strong>Solução:</strong> pipeline Dataflow Gen2 → Lakehouse → Warehouse, forecast em SQL e modelo dimensional no Power BI.</p>
-      <p class="result"><strong>Resultado:</strong> realizado × previsto mês a mês num único modelo, pronto para planejar estoque e metas.</p>
-      <div class="tags"><span>Microsoft Fabric</span><span>SQL</span><span>Power BI</span></div>
-      <div class="card-links">
-        <a href="projetos/sales-forecast-ml.html">Estudo de caso</a>
-        <a href="https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9" target="_blank" rel="noopener">Dashboard</a>
-        <a href="https://github.com/opusvix/sales-forecast-powerbi" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </article>
 
   </div>
 </section>
@@ -119,6 +119,17 @@ title: Maurício Barros | Analista de Dados
   <h2 class="section-title">Outros projetos</h2>
 
   <div class="cards cards-small">
+
+    <article class="card card-small">
+      <h3>Previsão de Vendas com Microsoft Fabric</h3>
+      <p>Pipeline Dataflow Gen2 → Lakehouse → Warehouse, forecast em SQL e realizado × previsto no Power BI.</p>
+      <div class="tags"><span>Microsoft Fabric</span><span>SQL</span><span>Power BI</span></div>
+      <div class="card-links">
+        <a href="projetos/sales-forecast-ml.html">Estudo de caso</a>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9" target="_blank" rel="noopener">Dashboard</a>
+        <a href="https://github.com/opusvix/sales-forecast-powerbi" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
 
     <article class="card card-small">
       <h3>Glicemia no Power BI</h3>

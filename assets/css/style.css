@@ -487,3 +487,10 @@ section {
 .wrapper pre {
   overflow-x: auto;
 }
+
+/* Tabelas largas rolam dentro do próprio bloco no celular */
+.wrapper table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
