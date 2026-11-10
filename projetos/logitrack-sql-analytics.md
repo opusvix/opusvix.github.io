@@ -51,7 +51,7 @@ focado em otimização de consultas SQL e performance em PostgreSQL.
 
 ## 📈 Dashboard Power BI
 
-![Dashboard](/assets/PrintPagina1.png)
+![Dashboard](/assets/Logistica.png)
 
 ---
 
@@ -81,7 +81,7 @@ focused on SQL optimization and partitioning strategies.
 
 ## 📊 Dashboard
 
-![Dashboard](/assets/PrintPagina1.png)
+![Dashboard](/assets/Logistica.png)
 
 ---
 
