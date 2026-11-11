@@ -7,7 +7,7 @@
       <a href="{{ t.home }}#projetos">{{ t.nav_projects }}</a>
       <a href="{{ t.home }}#sobre">{{ t.nav_about }}</a>
       <a href="{{ t.home }}#contato">{{ t.nav_contact }}</a>
-      <a class="lang" href="{{ t.other_lang_url }}" hreflang="{% if include.l == 'pt' %}en{% else %}pt-BR{% endif %}" lang="{% if include.l == 'pt' %}en{% else %}pt-BR{% endif %}" aria-label="{{ t.other_lang_label }}" title="{{ t.other_lang_label }}">{{ t.other_lang }}</a>
+      <a class="lang" href="{{ page.alt_url | default: t.other_lang_url }}" hreflang="{% if include.l == 'pt' %}en{% else %}pt-BR{% endif %}" lang="{% if include.l == 'pt' %}en{% else %}pt-BR{% endif %}" aria-label="{{ t.other_lang_label }}" title="{{ t.other_lang_label }}">{{ t.other_lang }}</a>
     </nav>
   </div>
 </header>

@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/gestao-demandas-sla.html
 title: "Gestão de Demandas & SLA — Power BI + SharePoint"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/controle-de-veiculos.html
 title: "Controle de Veículos"
 ---
 

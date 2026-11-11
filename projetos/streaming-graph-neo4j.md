@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/streaming-graph-neo4j.html
 title: "Streaming Graph Database – Neo4j"
 ---
 

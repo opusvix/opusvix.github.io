@@ -64,7 +64,8 @@ en:
   problem: Problem
   solution: Solution
   result: Result
-  case_study: Case study (PT)
+  case_study: Case study
+  case_study_pt: Case study (PT)
   open_app: Open app
   dashboard: Dashboard
   site: Website

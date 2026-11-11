@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/suporte-operacional-google.html
 title: "Monitoramento de Suporte Operacional"
 ---
 

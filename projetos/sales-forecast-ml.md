@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/sales-forecast-ml.html
 title: "Previsão de Vendas com Microsoft Fabric"
 ---
 
