@@ -93,8 +93,8 @@
 - slug: porsche
   destaque: true
   imagem: /assets/projetos/porsche/capa.webp
-  tags: [React, TypeScript, Qualidade de dados]
-  tags_en: [React, TypeScript, Data quality]
+  tags: [JavaScript, Chart.js, Qualidade de dados]
+  tags_en: [JavaScript, Chart.js, Data quality]
   links:
     dashboard: https://opusvix.github.io/dashboard_porsche_sales/
     github: https://github.com/opusvix/dashboard_porsche_sales
@@ -104,14 +104,14 @@
     problema: a diretoria precisa comparar vendas entre períodos e chegar até a transação.
     solucao: dashboard executivo com KPIs, comparação temporal, drill-through e detalhamento transacional.
     resultado: tratamento de qualidade que separa os 76 de 100 registros com data válida, para que a evolução mensal não seja distorcida.
-    nota: Projeto de estudo, sem afiliação com a Porsche.
+    nota: Projeto de bootcamp com base simulada (100 vendas fictícias), sem afiliação com a Porsche.
   en:
     titulo: Porsche Enterprise Sales Intelligence
     alt: Enterprise Sales Intelligence dashboard cover
     problema: leadership needs to compare sales across periods and drill down to the transaction.
     solucao: an executive dashboard with KPIs, period comparison, drill-through and transaction detail.
     resultado: a data-quality step isolates the 76 of 100 records with a valid date, so the monthly trend is not distorted.
-    nota: Study project, not affiliated with Porsche.
+    nota: Bootcamp project built on a simulated dataset (100 fictitious sales), not affiliated with Porsche.
 
 - slug: logitrack
   destaque: true
