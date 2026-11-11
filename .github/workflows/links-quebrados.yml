@@ -1,0 +1,48 @@
+name: Links quebrados
+
+# Toda segunda-feira às 9h (horário de Brasília) e quando rodado à mão em Actions.
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Gerar o site
+        run: bundle exec jekyll build -d _site
+
+      - name: Verificar links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Power BI e LinkedIn bloqueiam robôs (403/999); contam como OK.
+          args: >-
+            --no-progress
+            --root-dir "${{ github.workspace }}/_site"
+            --accept 200,206,403,429,999
+            --exclude "linkedin\.com"
+            --max-retries 3
+            "_site/**/*.html"
+          output: lychee/relatorio.md
+          fail: false
+
+      - name: Abrir issue se houver link quebrado
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Links quebrados no portfólio"
+          content-filepath: lychee/relatorio.md
+          labels: links-quebrados

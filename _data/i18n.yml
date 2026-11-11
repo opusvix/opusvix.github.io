@@ -15,6 +15,9 @@ pt:
   featured: Projetos em destaque
   featured_lead: Cada projeto mostra o problema, o que construí e o resultado.
   others: Outros projetos
+  filter_label: Filtrar por ferramenta
+  filter_all: Todas
+  filter_empty: Nenhum projeto com essa ferramenta.
   problem: Problema
   solution: Solução
   result: Resultado
@@ -61,6 +64,9 @@ en:
   featured: Featured projects
   featured_lead: Each project shows the problem, what I built and the result.
   others: Other projects
+  filter_label: Filter by tool
+  filter_all: All
+  filter_empty: No project uses this tool.
   problem: Problem
   solution: Solution
   result: Result

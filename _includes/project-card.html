@@ -1,7 +1,7 @@
 {%- assign t = site.data.i18n[include.l] -%}
 {%- assign p = include.p -%}
 {%- assign c = p[include.l] -%}
-<article class="card{% unless p.destaque %} card-small{% endunless %}">
+<article class="card{% unless p.destaque %} card-small{% endunless %}" data-tags="|{{ p.tags | join: '|' }}|">
   {%- if p.destaque and p.imagem %}
   <img src="{{ p.imagem }}" alt="{{ c.alt }}" loading="lazy" decoding="async" width="600" height="338">
   {%- endif %}

@@ -15,6 +15,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Ferramentas do filtro de projetos (precisam existir em "tags" no _data/projetos.yml)
+filtros: [Power BI, SQL, Python, JavaScript]
+
+# Contador de visitas GoatCounter: preencha com o código da sua conta
+# (ex.: "mauriciobarros" para mauriciobarros.goatcounter.com). Vazio = desligado.
+goatcounter: ""
+
 defaults:
   - scope:
       path: ""

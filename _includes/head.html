@@ -18,3 +18,6 @@
 <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/favicon-180.png">
 <link rel="stylesheet" href="/assets/css/style.css">
+{%- if site.goatcounter and site.goatcounter != "" and jekyll.environment == "production" %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{%- endif %}
