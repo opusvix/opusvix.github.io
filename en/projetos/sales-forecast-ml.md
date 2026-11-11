@@ -47,7 +47,7 @@ Companies that run on sales targets need to forecast future sales for inventory 
 | Forecast sales (Total Forecast) | R$ 2.79M |
 | Average monthly forecast vs. last actual month | +52.9% |
 
-The **Forecast vs Last Actual %** measure = (average forecast − last actual) ÷ last actual shows the average monthly forecast sits 52.9% above the last closed month. A jump that size is what the analyst has to explain before the forecast becomes a sales target: seasonality, the historical trend or an unusual last month.
+The **Forecast vs Last Actual %** measure = (average forecast − last actual) ÷ last actual shows the average monthly forecast sits 52.9% above the last closed month. The explanation is in the history: sales had been on a growth trend over the last few months, and the projection extends that trend. It is the kind of assumption an analyst makes explicit before a forecast becomes a sales target, because if growth slows down, the target has to be revised.
 
 A dashboard with actual and forecast sales lines, compared month by month, on a model that can grow to forecasts by category or region.
 

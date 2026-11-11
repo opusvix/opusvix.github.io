@@ -38,7 +38,7 @@ Looker Studio (dashboards)
 | --- | --- |
 | Total de atendimentos | 300 |
 | Backlog (abertos ou em andamento) | 203 |
-| Tempo médio de resolução (só concluídos) | 37 |
+| Tempo médio de resolução (só concluídos) | 37 horas |
 | % concluídos dentro do SLA | 72,2% |
 
 | Unidade | Atendimentos | SLA |

@@ -40,7 +40,7 @@ Looker Studio (dashboards)
 | --- | --- |
 | Total tickets | 300 |
 | Backlog (open or in progress) | 203 |
-| Average resolution time (closed only) | 37 |
+| Average resolution time (closed only) | 37 hours |
 | % closed within SLA | 72.2% |
 
 | Unit | Tickets | SLA |
