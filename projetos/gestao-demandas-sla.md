@@ -1,170 +1,37 @@
 ---
 layout: default
 alt_url: /en/projetos/gestao-demandas-sla.html
-title: "Gestão de Demandas & SLA — Power BI + SharePoint"
+title: "Gestão de Demandas & SLA"
+description: Solução Power BI sobre uma lista do SharePoint para acompanhar cumprimento de SLA, backlog e produtividade, versionada em PBIP.
 ---
 
-## 📊 Gestão de Demandas & SLA — Power BI + SharePoint
+# Gestão de Demandas & SLA
 
-Projeto de Business Intelligence desenvolvido com foco em governança de dados, análise de SLAs e visualização estratégica, utilizando SharePoint como fonte de dados e Power BI (PBIP) como camada analítica.
+Solução de Business Intelligence com foco em governança de dados e análise de SLA (acordo de nível de serviço), usando uma lista do SharePoint como fonte e o Power BI (PBIP) como camada analítica.
 
----
+![Página Visão Geral](/assets/projetos/gestao-demandas-sla/visao-geral.webp)
 
-## 🎯 Objetivo do Projeto
+## O problema
 
-Demonstrar, na prática, a construção de uma solução de BI completa, contemplando:
+As demandas eram registradas numa lista do SharePoint, que guarda cada item mas não responde às perguntas de negócio: estamos cumprindo os SLAs acordados? Onde estão os gargalos? Quais demandas puxam o SLA para baixo? Como o desempenho evolui?
 
-- Integração com SharePoint Lists
-- Modelagem analítica limpa e escalável
-- Criação de KPIs de SLA e gestão de demandas
-- Uso do formato PBIP para versionamento em Git
-- Organização voltada a portfólio profissional
+## O que construí
 
----
-
-## 🧱 Arquitetura da Solução
-
-- **SharePoint Online**
-  - Lista `fDemandas`
-- **Power BI – Power Query**
-  - Extração, limpeza e tratamento
-- **Modelo Dimensional**
-  - Tabela fato + calendário
-- **Medidas DAX**
-  - Organizadas por pastas
-- **Dashboard Executivo**
-
----
-
-## 🗂️ Estrutura do Repositório
-
-gestao-demandas-sla-powerbi/
-
-├── GestaoDemandas.pbip/
-
-├── Report/
-
-└── SemanticModel/
-
-├── docs/
-
-├── imagens/
-
-└── storytelling.md
-
-├── README.md
-
-└── .gitignore
-
----
-
-## 📐 Modelagem de Dados
-
-- Tabela Fato: fDemandas
-
-- Dimensão Tempo: Calendario
-
-- Modelo em estrela
-
-- Relacionamentos unidirecionais
+- **Fonte:** lista `fDemandas` do SharePoint Online, extraída e tratada no Power Query. As colunas técnicas do SharePoint foram descartadas, ficando só os atributos analíticos.
+- **Modelo em estrela:** tabela fato `fDemandas` (uma linha por demanda) e dimensão `Calendario`, com relacionamentos unidirecionais.
+- **KPIs:** total de demandas, no prazo, fora do prazo, SLA (%), tempo médio de atendimento, demandas por status e por responsável. As medidas DAX estão organizadas em pastas.
+- **Dashboard executivo:** leitura clara do SLA, concluídas × pendentes e destaque visual para os desvios de prazo.
 
 ![Modelo de dados](/assets/projetos/gestao-demandas-sla/modelo-dados.webp)
 
-- Granularidade: demanda individual
+![Página SLA e eficiência](/assets/projetos/gestao-demandas-sla/sla-eficiencia.webp)
 
-📌 Colunas técnicas do SharePoint foram descartadas, mantendo apenas atributos analíticos.
+## Resultado
 
----
+Um dashboard que responde às quatro perguntas de negócio acima, construído em PBIP para que modelo, visuais e documentação fiquem versionados em Git, como num time de BI corporativo.
 
-## 📏 Indicadores (KPIs)
+## Tecnologias
 
-- Total de Demandas
+Power BI Desktop (PBIP), SharePoint Online, DAX, Power Query (M), Git e GitHub.
 
-- Demandas no Prazo
-
-- Demandas Fora do Prazo
-
-- SLA (%)
-
-- Tempo Médio de Atendimento
-
-- Demandas por Status
-
-- Demandas por Responsável
-
-As medidas DAX estão organizadas em pastas, seguindo as etapas do projeto.
-
----
-
-## 📊 Dashboard
-
-O dashboard foi estruturado com foco em:
-
-- Visão executiva
-
-- Clareza na leitura de SLAs
-
-- Comparação entre demandas concluídas e pendentes
-
-- Destaque visual para desvios de prazo
-
-![Visão geral](/assets/projetos/gestao-demandas-sla/visao-geral.webp)
-
-![SLA e eficiência](/assets/projetos/gestao-demandas-sla/sla-eficiencia.webp)
-
-![Backlog e produtividade](/assets/projetos/gestao-demandas-sla/backlog-produtividade.webp)
-
-📊 **Dashboard interativo:** [abrir no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNjMxMmE3NTAtYzg5NS00Yjg0LTk2MDQtZTY1MDBkYjFlYzQ1IiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"}
-
----
-
-## 🧠 Storytelling Analítico
-
-O relatório responde às seguintes perguntas de negócio:
-
-- Estamos cumprindo os SLAs acordados?
-
-- Onde estão os maiores gargalos?
-
-- Quais demandas impactam negativamente o SLA?
-
-- Como evolui o desempenho ao longo do tempo?
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- Power BI Desktop (PBIP)
-
-- SharePoint Online
-
-- DAX
-
-- Power Query (M)
-
-- Git & GitHub
-
----
-
-## 🚀 Diferenciais do Projeto
-
-- Uso de PBIP (pronto para versionamento)
-
-- Organização profissional de medidas
-
-- Separação clara entre modelo, visual e documentação
-
-- Projeto pensado como case real de BI corporativo
-
----
-
-## 👤 Autor
-
-Maurício Barros
-
-Analista de Dados | BI | Power BI | SQL | IA Generativa
-
-🔗 GitHub: https://github.com/opusvix
-
-🔗 LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
-
+🔗 [Dashboard interativo](https://app.powerbi.com/view?r=eyJrIjoiNjMxMmE3NTAtYzg5NS00Yjg0LTk2MDQtZTY1MDBkYjFlYzQ1IiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"} · [Código no GitHub](https://github.com/opusvix/gestao-demandas-sla-powerbi){:target="_blank" rel="noopener"}

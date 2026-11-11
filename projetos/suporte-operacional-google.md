@@ -2,119 +2,47 @@
 layout: default
 alt_url: /en/projetos/suporte-operacional-google.html
 title: "Monitoramento de Suporte Operacional"
+description: Pipeline de BI no ecossistema Google (Sheets, BigQuery, Looker Studio) para monitorar volume, SLA, backlog e capacidade de atendimento.
 ---
 
 # Monitoramento de Suporte Operacional
 
-## 🧠 Contexto do Projeto
+Pipeline completo de BI no ecossistema Google para monitorar um ambiente simulado de suporte operacional: volume de atendimentos, cumprimento de SLA e evolução da demanda.
 
-Organizações que prestam suporte operacional precisam acompanhar volume de atendimentos, cumprimento de SLA e evolução da demanda ao longo do tempo. A falta de uma visão integrada dificulta a tomada de decisão, o planejamento de capacidade e a priorização de ações corretivas.
+![Visão Geral Executiva](/assets/projetos/suporte-operacional/visao-geral.webp)
 
-Este projeto simula um ambiente real de suporte operacional genérico, com dados estruturados desde a origem até a visualização analítica.
+## O problema
 
-O dashboard permite acompanhar a eficiência operacional da organização, analisando volume de atendimentos, cumprimento de SLA e desempenho das unidades. A solução apoia gestores na identificação de gargalos, priorização de recursos e melhoria contínua dos serviços.
+Equipes de suporte precisam acompanhar volume de atendimentos, SLA e demanda ao longo do tempo. Sem uma visão integrada, o planejamento de capacidade e a priorização de ações corretivas viram chute.
 
-## 🎯 Objetivo
-
-Construir um pipeline completo de BI utilizando ferramentas do ecossistema Google para:
-
-- Centralizar dados operacionais
-
-- Tratar e modelar informações analíticas
-
-- Monitorar SLA, backlog e desempenho
-
-- Apoiar decisões gerenciais e estratégicas
-
-## 🏗️ Arquitetura da Solução
+## O que construí
 
 ```text
 Google Sheets (dados simulados)
     ↓
 BigQuery (staging + modelo analítico)
     ↓
-Looker Studio (Dashboards)
+Looker Studio (dashboards)
 ```
-📌 O projeto prioriza boas práticas de modelagem, separação entre dados brutos e tratados e storytelling analítico.
+
+- **Camadas separadas** de dados brutos e tratados no BigQuery, em SQL padrão.
+- **Visão Geral Executiva:** total de atendimentos, tempo médio, SLA global e distribuição por status, unidade e prioridade.
+- **Análise Operacional:** volume, tempo médio e SLA por unidade e prioridade, com tabela analítica de atendimentos.
+- **Tendências & Planejamento:** evolução da demanda, tendência de SLA, crescimento por prioridade e abertos × fechados.
 
 ![Arquitetura](/assets/projetos/suporte-operacional/arquitetura.webp)
 
-## 🛠️ Tecnologias Utilizadas
+## Resultado: insights simulados
 
-- Google Sheets (geração e simulação de dados)
+- A demanda cresce gradualmente mês a mês.
+- Unidades com mais volume têm maior risco de violar o SLA.
+- Atendimentos de prioridade alta pedem reforço de equipe.
+- Backlog crescente indica necessidade de ajustar a capacidade.
 
-- BigQuery (armazenamento e transformação)
+O dashboard apoia decisões de reforço de equipe por unidade, revisão de SLA por prioridade e planejamento de capacidade.
 
-- SQL padrão BigQuery
+## Tecnologias
 
-- Looker Studio (visualização e análise)
+Google Sheets, BigQuery (SQL padrão), Looker Studio e GitHub.
 
-- GitHub (versionamento e portfólio)
-
-## 📊 Dashboards Desenvolvidos
-### 📍 Página 1 — Visão Geral Executiva
-
-- Volume total de atendimentos
-
-- Tempo médio de atendimento
-
-- SLA global
-
-- Distribuição por status, unidade e prioridade
-
-![Visão Geral](/assets/projetos/suporte-operacional/visao-geral.webp)
-
-### 📍 Página 2 — Análise Operacional
-
-- Volume por unidade
-
-- Tempo médio por unidade
-
-- SLA por unidade e prioridade
-
-- Distribuição de status
-
-- Tabela analítica de atendimentos
-
-![Análise Operacional](/assets/projetos/suporte-operacional/analise-operacional.webp)
-
-### 📍 Página 3 — Tendências & Planejamento
-
-- Evolução da demanda ao longo do tempo
-
-- Tendência de SLA
-
-- Crescimento por prioridade
-
-- Abertos vs fechados
-
-- Apoio ao planejamento de capacidade
-
-![Tendencias](/assets/projetos/suporte-operacional/tendencias.webp)
-
-## 📈 Principais Insights Simulados
-
-- Crescimento gradual da demanda ao longo dos meses
-
-- Unidades com maior volume tendem a apresentar maior risco de violação de SLA
-
-- Atendimentos de prioridade alta exigem reforço operacional
-
-- Backlog crescente indica necessidade de ajuste de capacidade
-
-## 📌 Decisões que o Dashboard Suporta
-
-- Reforço de equipe por unidade
-
-- Revisão de SLAs por prioridade
-
-- Planejamento de capacidade futura
-
-- Monitoramento contínuo da qualidade do atendimento
-
-## 👨‍💻 Autor
-
-### Maurício Barros
-#### Analista de Dados | BI | Analytics
-🔗 GitHub: https://github.com/opusvix
-
+🔗 [Dashboard interativo](https://lookerstudio.google.com/s/sD-EnJFnXEU){:target="_blank" rel="noopener"} · [Código no GitHub](https://github.com/opusvix/SuporteOperacional-StackGoogle){:target="_blank" rel="noopener"}
