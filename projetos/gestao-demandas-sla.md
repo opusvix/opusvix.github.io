@@ -28,7 +28,14 @@ As demandas eram registradas numa lista do SharePoint, que guarda cada item mas 
 
 ## Resultado
 
-Um dashboard que responde às quatro perguntas de negócio acima, construído em PBIP para que modelo, visuais e documentação fiquem versionados em Git, como num time de BI corporativo.
+| Indicador (2026) | Valor |
+| --- | --- |
+| Total de demandas | 15 |
+| Demandas em aberto | 10 |
+| % de cumprimento do SLA | 60% |
+| Lead time médio | 3,2 dias |
+
+Com 60% de cumprimento, 4 em cada 10 demandas estouram o prazo, e 10 das 15 ainda estão em aberto. É o tipo de sinal que o dashboard existe para mostrar: a próxima pergunta passa a ser "quais áreas e tipos de demanda concentram os atrasos?". O projeto foi construído em PBIP, com modelo, visuais e documentação versionados em Git, como num time de BI corporativo.
 
 ## Tecnologias
 

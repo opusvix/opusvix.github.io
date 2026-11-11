@@ -41,7 +41,12 @@ Companies that run on sales targets need to forecast future sales for inventory 
 
 ## Result
 
-A dashboard with actual sales, forecast and total forecast lines, compared month by month, on a model that can grow to forecasts by category or region.
+| Indicator | Value |
+| --- | --- |
+| Actual sales (Total Sales) | R$ 7.67M (Brazilian reais) |
+| Forecast sales (Total Forecast) | R$ 2.79M |
+
+A dashboard with actual and forecast sales lines, compared month by month, on a model that can grow to forecasts by category or region.
 
 ## Tech stack
 

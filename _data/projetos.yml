@@ -145,10 +145,10 @@
     github: https://github.com/opusvix/sales-forecast-powerbi
   pt:
     titulo: Previsão de Vendas com Microsoft Fabric
-    resumo: Pipeline Dataflow Gen2 → Lakehouse → Warehouse, forecast em SQL e realizado × previsto no Power BI.
+    resumo: Pipeline Dataflow Gen2 → Lakehouse → Warehouse e forecast em SQL. R$ 7,67 mi de vendas realizadas e R$ 2,79 mi previstos no Power BI.
   en:
     titulo: Sales Forecast with Microsoft Fabric
-    resumo: Dataflow Gen2 → Lakehouse → Warehouse pipeline, SQL forecast and actual vs forecast in Power BI.
+    resumo: Dataflow Gen2 → Lakehouse → Warehouse pipeline and SQL forecast. R$ 7.67M in actual sales and R$ 2.79M forecast in Power BI.
 
 - slug: glicemia-powerbi
   destaque: false
@@ -175,10 +175,10 @@
     github: https://github.com/opusvix/ServicosPublicos
   pt:
     titulo: Serviços Públicos & Energia Solar
-    resumo: Custo de energia e saneamento com e sem os créditos de energia solar, economia acumulada e CO₂ evitado.
+    resumo: Energia e saneamento com e sem créditos solares. Os créditos economizaram R$ 293,43 (4,4% de R$ 6.652,75) e evitaram 418,9 kg de CO₂.
   en:
     titulo: Utilities & Solar Energy
-    resumo: Power and water costs with and without solar credits, cumulative savings and CO₂ avoided.
+    resumo: Power and water costs with and without solar credits. The credits saved R$ 293.43 (4.4% of R$ 6,652.75) and avoided 418.9 kg of CO₂.
 
 - slug: gestao-demandas-sla
   destaque: false
@@ -190,10 +190,10 @@
     github: https://github.com/opusvix/gestao-demandas-sla-powerbi
   pt:
     titulo: Gestão de Demandas & SLA
-    resumo: SLA, backlog e produtividade por responsável, com SharePoint como fonte e modelo em estrela.
+    resumo: SLA, backlog e produtividade com SharePoint como fonte. Mostrou SLA de 60% e lead time médio de 3,2 dias em 15 demandas.
   en:
     titulo: Request Management & SLA
-    resumo: SLA, backlog and productivity by owner, with SharePoint as the source and a star schema.
+    resumo: SLA, backlog and productivity with SharePoint as the source. It surfaced 60% SLA compliance and a 3.2-day average lead time across 15 requests.
 
 - slug: suporte-operacional
   destaque: false

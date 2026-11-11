@@ -39,7 +39,12 @@ Empresas que trabalham com metas comerciais precisam prever as vendas para plane
 
 ## Resultado
 
-Um dashboard com as linhas de vendas reais, previsão e previsão total, comparadas mês a mês, sobre um modelo que pode crescer para previsões por categoria ou região.
+| Indicador | Valor |
+| --- | --- |
+| Vendas realizadas (Total Sales) | R$ 7,67 mi |
+| Vendas previstas (Total Forecast) | R$ 2,79 mi |
+
+Um dashboard com as linhas de vendas reais e previstas, comparadas mês a mês, sobre um modelo que pode crescer para previsões por categoria ou região.
 
 ## Tecnologias
 
