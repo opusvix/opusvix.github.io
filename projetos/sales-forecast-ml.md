@@ -39,7 +39,15 @@ Empresas que trabalham com metas comerciais precisam prever as vendas para plane
 
 ## Resultado
 
-Um dashboard com as linhas de vendas reais, previsão e previsão total, comparadas mês a mês, sobre um modelo que pode crescer para previsões por categoria ou região.
+| Indicador | Valor |
+| --- | --- |
+| Vendas realizadas (Total Sales) | R$ 7,67 mi |
+| Vendas previstas (Total Forecast) | R$ 2,79 mi |
+| Previsão média mensal × último mês realizado | +52,9% |
+
+O indicador **Forecast vs Last Actual %** = (previsão média − último realizado) ÷ último realizado mostra que a previsão média mensal fica 52,9% acima do último mês fechado. A explicação está no histórico: as vendas vinham numa tendência de crescimento nos últimos meses, e a projeção estende essa tendência. É o tipo de premissa que o analista deixa explícita antes de a previsão virar meta comercial, porque, se o crescimento desacelerar, a meta precisa ser revista.
+
+Um dashboard com as linhas de vendas reais e previstas, comparadas mês a mês, sobre um modelo que pode crescer para previsões por categoria ou região.
 
 ## Tecnologias
 

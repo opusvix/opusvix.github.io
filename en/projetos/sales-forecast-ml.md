@@ -41,7 +41,15 @@ Companies that run on sales targets need to forecast future sales for inventory 
 
 ## Result
 
-A dashboard with actual sales, forecast and total forecast lines, compared month by month, on a model that can grow to forecasts by category or region.
+| Indicator | Value |
+| --- | --- |
+| Actual sales (Total Sales) | R$ 7.67M (Brazilian reais) |
+| Forecast sales (Total Forecast) | R$ 2.79M |
+| Average monthly forecast vs. last actual month | +52.9% |
+
+The **Forecast vs Last Actual %** measure = (average forecast − last actual) ÷ last actual shows the average monthly forecast sits 52.9% above the last closed month. The explanation is in the history: sales had been on a growth trend over the last few months, and the projection extends that trend. It is the kind of assumption an analyst makes explicit before a forecast becomes a sales target, because if growth slows down, the target has to be revised.
+
+A dashboard with actual and forecast sales lines, compared month by month, on a model that can grow to forecasts by category or region.
 
 ## Tech stack
 

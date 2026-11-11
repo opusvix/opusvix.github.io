@@ -30,7 +30,14 @@ Requests were tracked in a SharePoint list, which records each item but doesn't 
 
 ## Result
 
-A dashboard that answers the four business questions above, built in PBIP so the model, visuals and documentation are versioned in Git, the way a corporate BI team would work.
+| Indicator (2026) | Value |
+| --- | --- |
+| Total requests | 15 |
+| Open requests | 10 |
+| SLA compliance | 60% |
+| Average lead time | 3.2 days |
+
+At 60% compliance, 4 in 10 requests miss the deadline, and 10 of the 15 are still open. That is exactly the kind of signal the dashboard exists to surface: the next question becomes "which areas and request types concentrate the delays?". The project is built in PBIP, with the model, visuals and documentation versioned in Git, the way a corporate BI team would work.
 
 ## Tech stack
 

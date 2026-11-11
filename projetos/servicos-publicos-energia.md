@@ -26,7 +26,15 @@ Com os créditos de energia solar abatidos na conta, não fica claro quanto se e
 
 ## Resultado
 
-Um dashboard mostra quanto os créditos solares economizam por mês e no acumulado, junto com a tendência de consumo e o CO₂ evitado, para apoiar o orçamento da casa e as decisões de eficiência.
+| Indicador | Valor |
+| --- | --- |
+| Valor total gasto | R$ 6.652,75 |
+| Economia com créditos solares | R$ 293,43 |
+| % de economia solar | 4,4% |
+| Valor líquido | R$ 6.359,32 |
+| Redução de CO₂ | 418,9 kg |
+
+O número mais útil é o menos óbvio: os créditos solares cobrem só 4,4% da conta. O dashboard deixa claro que o ganho financeiro existe, mas é pequeno perto do gasto total, o que ajuda a avaliar se o contrato de locação compensa e onde mais vale buscar eficiência.
 
 ## Tecnologias
 

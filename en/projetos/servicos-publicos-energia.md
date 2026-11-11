@@ -28,7 +28,15 @@ With the solar credits applied to the bill, it isn't obvious how much is actuall
 
 ## Result
 
-One dashboard shows how much the solar credits save each month and cumulatively, alongside consumption trends and the CO₂ avoided, to support household budgeting and efficiency decisions.
+| Indicator | Value |
+| --- | --- |
+| Total spent | R$ 6,652.75 |
+| Solar credit savings | R$ 293.43 |
+| Solar savings % | 4.4% |
+| Net amount | R$ 6,359.32 |
+| CO₂ reduction | 418.9 kg |
+
+The most useful number is the least obvious one: the solar credits cover only 4.4% of the bill. The dashboard makes it clear that the financial gain is real but small compared with total spending, which helps judge whether the lease contract pays off and where else to look for efficiency.
 
 ## Tech stack
 
