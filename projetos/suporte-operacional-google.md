@@ -32,7 +32,25 @@ Looker Studio (dashboards)
 
 ![Arquitetura](/assets/projetos/suporte-operacional/arquitetura.webp)
 
-## Resultado: insights simulados
+## Resultado (1/out/2025 a 21/jan/2026, dados simulados)
+
+| Indicador | Valor |
+| --- | --- |
+| Total de atendimentos | 300 |
+| Backlog (abertos ou em andamento) | 203 |
+| Tempo médio de resolução (só concluídos) | 37 |
+| % concluídos dentro do SLA | 72,2% |
+
+| Unidade | Atendimentos | SLA |
+| --- | --- | --- |
+| A | 77 | 80,8% |
+| C | 72 | 71,4% |
+| D | 80 | 71,4% |
+| B | 71 | 63,6% |
+
+A leitura que o dashboard permite: 2 em cada 3 chamados (203 de 300) ainda estão em aberto, e a Unidade B fica 17 pontos percentuais abaixo da Unidade A com volume parecido. Ou seja, o problema não é só volume, é processo.
+
+### Insights simulados
 
 - A demanda cresce gradualmente mês a mês.
 - Unidades com mais volume têm maior risco de violar o SLA.

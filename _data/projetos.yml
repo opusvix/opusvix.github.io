@@ -145,10 +145,10 @@
     github: https://github.com/opusvix/sales-forecast-powerbi
   pt:
     titulo: Previsão de Vendas com Microsoft Fabric
-    resumo: Pipeline Dataflow Gen2 → Lakehouse → Warehouse e forecast em SQL. R$ 7,67 mi de vendas realizadas e R$ 2,79 mi previstos no Power BI.
+    resumo: Pipeline Dataflow Gen2 → Lakehouse → Warehouse e forecast em SQL. R$ 7,67 mi realizados e previsão média mensal 52,9% acima do último mês.
   en:
     titulo: Sales Forecast with Microsoft Fabric
-    resumo: Dataflow Gen2 → Lakehouse → Warehouse pipeline and SQL forecast. R$ 7.67M in actual sales and R$ 2.79M forecast in Power BI.
+    resumo: Dataflow Gen2 → Lakehouse → Warehouse pipeline and SQL forecast. R$ 7.67M in actual sales and an average monthly forecast 52.9% above the last month.
 
 - slug: glicemia-powerbi
   destaque: false
@@ -205,10 +205,10 @@
     github: https://github.com/opusvix/SuporteOperacional-StackGoogle
   pt:
     titulo: Suporte Operacional (stack Google)
-    resumo: Pipeline Google Sheets → BigQuery → Looker Studio com SLA, volume, backlog e tendências.
+    resumo: Pipeline Google Sheets → BigQuery → Looker Studio. Em 300 atendimentos, SLA de 72,2% e diferença de 17 p.p. entre a melhor e a pior unidade.
   en:
     titulo: Operations Support (Google stack)
-    resumo: Google Sheets → BigQuery → Looker Studio pipeline with SLA, volume, backlog and trends.
+    resumo: Google Sheets → BigQuery → Looker Studio pipeline. Across 300 tickets, 72.2% SLA compliance and a 17-point gap between the best and worst unit.
 
 - slug: streaming-graph
   destaque: false

@@ -34,7 +34,25 @@ Looker Studio (dashboards)
 
 ![Architecture](/assets/projetos/suporte-operacional/arquitetura.webp)
 
-## Result: simulated insights
+## Result (Oct 1, 2025 to Jan 21, 2026, simulated data)
+
+| Indicator | Value |
+| --- | --- |
+| Total tickets | 300 |
+| Backlog (open or in progress) | 203 |
+| Average resolution time (closed only) | 37 |
+| % closed within SLA | 72.2% |
+
+| Unit | Tickets | SLA |
+| --- | --- | --- |
+| A | 77 | 80.8% |
+| C | 72 | 71.4% |
+| D | 80 | 71.4% |
+| B | 71 | 63.6% |
+
+What the dashboard reveals: 2 in 3 tickets (203 of 300) are still open, and Unit B sits 17 percentage points below Unit A with a similar volume. In other words, the issue isn't just volume, it's process.
+
+### Simulated insights
 
 - Demand grows gradually month over month.
 - Units with higher volume carry a higher risk of SLA breaches.
