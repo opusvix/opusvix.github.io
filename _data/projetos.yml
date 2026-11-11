@@ -96,7 +96,7 @@
   tags: [React, TypeScript, Qualidade de dados]
   tags_en: [React, TypeScript, Data quality]
   links:
-    dashboard: https://porsche-sales-intelligence.opusvix.chatgpt.site
+    dashboard: https://opusvix.github.io/dashboard_porsche_sales/
     github: https://github.com/opusvix/dashboard_porsche_sales
   pt:
     titulo: Porsche Enterprise Sales Intelligence
