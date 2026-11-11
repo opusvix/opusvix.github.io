@@ -2,239 +2,47 @@
 layout: default
 alt_url: /en/projetos/sales-forecast-ml.html
 title: "Previsão de Vendas com Microsoft Fabric"
+description: Previsão de vendas de ponta a ponta no Microsoft Fabric (Lakehouse + Warehouse), com modelo dimensional em SQL e realizado × previsto no Power BI.
 ---
 
-# 📊 Previsão de Vendas com Microsoft Fabric
+# Previsão de Vendas com Microsoft Fabric
 
-Projeto end-to-end de previsão de vendas utilizando Microsoft Fabric (Lakehouse + Warehouse), modelagem dimensional em SQL e visualização estratégica no Power BI.
+Projeto de ponta a ponta de previsão de vendas no Microsoft Fabric (Lakehouse + Warehouse), com modelagem dimensional em SQL e comparação entre realizado e previsto no Power BI.
 
-## 🚀 Dashboard Interativo
-<p align="center"> <a href="https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9" target="_blank"> <img src="/assets/projetos/sales-forecast/dashboard.webp" width="850" alt="Dashboard realizado versus previsto"> </a> </p> <p align="center"> 🔎 Clique na imagem para explorar o dashboard completo </p>
+[![Dashboard realizado versus previsto](/assets/projetos/sales-forecast/dashboard.webp)](https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"}
 
-## 🔗 Documentação (GitHub Pages):
-https://opusvix.github.io/sales-forecast-powerbi/
+*Clique na imagem para explorar o dashboard interativo.*
 
-## 🔗 Repositório:
-https://github.com/opusvix/sales-forecast-powerbi
+## O problema
 
-## 🎯 Contexto do Projeto
+Empresas que trabalham com metas comerciais precisam prever as vendas para planejar estoque, definir metas, projetar receita e apoiar decisões estratégicas. O objetivo foi montar uma arquitetura analítica moderna que consolide o histórico, tenha um modelo dimensional confiável e compare o realizado com o previsto.
 
-Empresas que trabalham com metas comerciais precisam prever vendas futuras para:
+## O que construí
 
-- Planejamento de estoque
+**Pipeline:** Dataflow Gen2 → Lakehouse → Warehouse → modelagem SQL → Power BI → GitHub Pages
 
-- Definição de metas
-
-- Projeção de receita
-
-- Apoio à tomada de decisão estratégica
-
-O objetivo deste projeto foi construir uma arquitetura analítica moderna, utilizando Microsoft Fabric, capaz de:
-
-✔ Consolidar dados históricos
-
-✔ Criar modelo dimensional confiável
-
-✔ Implementar cálculo de forecast
-
-✔ Disponibilizar visualização comparativa entre Realizado vs Previsto
-
-
-## 🏗 Arquitetura da Solução
-
-Pipeline implementado:
-
-DataFlow Gen2 → Lakehouse → Warehouse → Modelagem SQL → Power BI → GitHub Pages
-
-🔹 Lakehouse
-
-Armazenamento inicial dos dados brutos.
-
-🔹 Warehouse
-
-Camada estruturada para modelagem analítica e aplicação de regras de negócio.
-
-🔹 SQL
-
-Criação de tabelas dimensionais e fato.
-
-🔹 Power BI
-
-Visualização comparativa e construção das métricas.
-
-## 📦 Modelagem de Dados
-
-Foi adotado modelo dimensional simplificado:
-
-## 🗂 dim_date
-
-Tabela calendário criada via SQL para garantir:
-
-- Padronização temporal
-
-- Agrupamento mensal
-
-- Criação de chave YearMonthKey
-
-- Controle de ordenação no eixo do gráfico
-
-Campos principais:
-
-- date
-
-- year
-
-- month
-
-- day_of_week
-
-- is_weekend
-
-- YearMonth
-
-- YearMonthKey
-
-## 🗂 fact_sales
-
-Tabela fato contendo:
-
-- date
-
-- total_sales
-
-- forecast_value
-
-Relacionamento:
-
-fact_sales.date → dim_date.date
+- **Lakehouse:** armazenamento dos dados brutos.
+- **Warehouse:** camada estruturada para a modelagem analítica e as regras de negócio.
+- **Modelo dimensional em SQL:**
+  - `dim_date`: tabela calendário (date, year, month, day_of_week, is_weekend, YearMonth, YearMonthKey).
+  - `fact_sales`: date, total_sales e forecast_value, ligada por `fact_sales.date → dim_date.date`.
+- **Lógica de previsão em SQL:** agregação mensal, cálculo de média e tendência e projeção para os períodos futuros (`sql/forecast_query.sql`).
+- **Medidas DAX:** `Total Sales = SUM(fact_sales[total_sales])` e `Total Forecast = SUM(fact_sales[forecast_value])`.
 
 ![Modelo de dados](/assets/projetos/sales-forecast/modelo.webp)
 
-## 🧠 Lógica de Forecast
+## Desafios técnicos resolvidos
 
-O forecast foi calculado no Warehouse utilizando SQL com base em tendência histórica mensal.
+- Ordenação errada dos meses no eixo do Power BI, resolvida com a chave `YearMonthKey`.
+- Integração entre Lakehouse e Warehouse.
+- Tratamento de datas para manter a série temporal consistente.
 
-Arquivo:
+## Resultado
 
-sql/forecast_query.sql
+Um dashboard com as linhas de vendas reais, previsão e previsão total, comparadas mês a mês, sobre um modelo que pode crescer para previsões por categoria ou região.
 
-Estratégia aplicada:
+## Tecnologias
 
-- Agregação mensal
+Microsoft Fabric (Dataflow Gen2, Lakehouse, Warehouse SQL endpoint), SQL, Power BI (.pbip), DAX, GitHub e GitHub Pages.
 
-- Cálculo de média/tendência
-
-- Projeção para períodos futuros
-
-- Integração com modelo dimensional
-
-## 📊 Dashboard
-
-O dashboard apresenta:
-
-- Linha de Vendas Reais
-
-- Linha de Forecast
-
-- Linha Total Forecast consolidada
-
-- Comparação mensal
-
-- Eixo ordenado por YearMonthKey
-
-## 🛠 Medidas DAX
-
-Exemplo de medidas utilizadas:
-
-Total Sales = SUM(fact_sales[total_sales])
-
-
-Total Forecast = SUM(fact_sales[forecast_value])
-
-Arquivo com medidas:
-
-powerbi/measures-dax.md
-
-## 🚧 Desafios Técnicos Enfrentados
-
-Durante o desenvolvimento foram resolvidos problemas como:
-
-- Conflito de ordenação no eixo do Power BI
-
-- Necessidade de chave YearMonthKey para ordenação correta
-
-- Integração entre Lakehouse e Warehouse
-
-- Tratamento de datas para garantir consistência temporal
-
-- Estruturação do projeto para publicação no GitHub Pages
-
-Esses ajustes garantiram:
-
-✔ Escalabilidade
-
-✔ Governança
-
-✔ Padronização de modelo
-
-
-## 📂 Estrutura do Repositório
-
-sql/              → Scripts de criação e transformação
-
-powerbi/          → Arquivo .pbip e medidas DAX
-
-docs/             → Documentação do projeto (GitHub Pages)
-
-docs/images/      → Imagens do projeto
-
-data-model/       → Diagrama do modelo
-
-## 🚀 Stack Utilizada
-
-- Microsoft Fabric
-
-- DataFlow Gen2
-
-- Lakehouse
-
-- Warehouse SQL Endpoint
-
-- Power BI (.PBIP)
-
-- DAX
-
-- GitHub
-
-- GitHub Pages
-
-## 📈 Possíveis Evoluções
-
-- Implementar modelo de regressão linear
-
-- Aplicar Machine Learning automatizado
-
-- Criar forecast por categoria/região
-
-- Implementar CI/CD para versionamento de BI
-
-- Automatizar ingestão via Dataflow Gen2
-
-## 🔗 Links
-
-🌐 Documentação do Projeto
-https://opusvix.github.io/sales-forecast-powerbi/
-
-💼 Portfólio Principal
-https://opusvix.github.io/
-
-## 👨‍💻 Autor
-
-Maurício Barros
-
-Data Analytics | BI | Machine Learning
-
-GitHub: https://github.com/opusvix
-
-LinkedIn: https://www.linkedin.com/in/mauriciodasilvabarros/
-
+🔗 [Dashboard interativo](https://app.powerbi.com/view?r=eyJrIjoiZTRmMTBmYmYtOGE0Ny00MTc3LTk0OGItZTI3YjE2NjdjYmRiIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9){:target="_blank" rel="noopener"} · [Documentação do projeto](https://opusvix.github.io/sales-forecast-powerbi/){:target="_blank" rel="noopener"} · [Código no GitHub](https://github.com/opusvix/sales-forecast-powerbi){:target="_blank" rel="noopener"}
