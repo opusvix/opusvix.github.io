@@ -28,6 +28,14 @@
     <div class="container">
       <h2>{{ t.featured }}</h2>
       <p class="lead">{{ t.featured_lead }}</p>
+      <div class="filter" role="group" aria-label="{{ t.filter_label }}" hidden>
+        <span class="filter-label">{{ t.filter_label }}:</span>
+        <button type="button" class="chip" data-filter="" aria-pressed="true">{{ t.filter_all }}</button>
+        {%- for f in site.filtros %}
+        <button type="button" class="chip" data-filter="{{ f }}" aria-pressed="false">{{ f }}</button>
+        {%- endfor %}
+      </div>
+      <p class="filter-empty" hidden>{{ t.filter_empty }}</p>
       <div class="cards">
         {%- for p in site.data.projetos %}{% if p.destaque %}
         {% include project-card.html p=p l=l %}
@@ -78,5 +86,6 @@
   </section>
 </main>
 {% include footer.html l=l %}
+<script src="/assets/js/filtro.js" defer></script>
 </body>
 </html>
