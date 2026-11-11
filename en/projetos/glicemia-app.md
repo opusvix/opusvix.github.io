@@ -20,7 +20,7 @@ An app you install on your phone (a PWA, or progressive web app) to log fasting 
 
 ## The problem
 
-Readings were logged in a spreadsheet. The analysis (in a [Power BI dashboard, in Portuguese](/projetos/monitoramento-glicemia.html){: hreflang="pt-BR"}) only happened every now and then, far from the moment the decision is made: the day's meals.
+Readings were logged in a spreadsheet. The analysis (in a [Power BI dashboard](/en/projetos/monitoramento-glicemia.html)) only happened every now and then, far from the moment the decision is made: the day's meals.
 
 ## What I built
 

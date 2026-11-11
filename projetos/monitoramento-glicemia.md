@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/monitoramento-glicemia.html
 title: "Glicemia no Power BI"
 ---
 
