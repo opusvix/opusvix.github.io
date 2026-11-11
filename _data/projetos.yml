@@ -4,8 +4,10 @@
   destaque: true
   imagem: /assets/projetos/inbody/capa.webp
   tags: [JavaScript, Análise temporal, Saúde]
+  tags_en: [JavaScript, Time series, Health]
   links:
     estudo: /projetos/inbody.html
+    estudo_en: /en/projetos/inbody.html
     app: https://opusvix.github.io/inbody/
     github: https://github.com/opusvix/inbody
   pt:
@@ -27,6 +29,7 @@
   tags: [Python, FastAPI, SQLite, React]
   links:
     estudo: /projetos/controle-financeiro.html
+    estudo_en: /en/projetos/controle-financeiro.html
     github: https://github.com/opusvix/controle-financeiro
   pt:
     titulo: Controle Financeiro
@@ -45,8 +48,10 @@
   destaque: true
   imagem: /assets/projetos/glicemia-app/capa.webp
   tags: [JavaScript, PWA, Análise temporal]
+  tags_en: [JavaScript, PWA, Time series]
   links:
     estudo: /projetos/glicemia-app.html
+    estudo_en: /en/projetos/glicemia-app.html
     app: https://opusvix.github.io/glicemia/
     github: https://github.com/opusvix/glicemia
   pt:
@@ -66,8 +71,10 @@
   destaque: true
   imagem: /assets/projetos/controle-de-veiculos/relatorios.webp
   tags: [Python, Tkinter, Indicadores]
+  tags_en: [Python, Tkinter, KPIs]
   links:
     estudo: /projetos/controle-de-veiculos.html
+    estudo_en: /en/projetos/controle-de-veiculos.html
     site: https://controle-de-veiculos.netlify.app/
     github: https://github.com/opusvix/controle-de-veiculos
   pt:
@@ -87,6 +94,7 @@
   destaque: true
   imagem: /assets/projetos/porsche/capa.webp
   tags: [React, TypeScript, Qualidade de dados]
+  tags_en: [React, TypeScript, Data quality]
   links:
     dashboard: https://porsche-sales-intelligence.opusvix.chatgpt.site
     github: https://github.com/opusvix/dashboard_porsche_sales
@@ -111,6 +119,7 @@
   tags: [PostgreSQL, SQL, Power BI, Docker]
   links:
     estudo: /projetos/logitrack-sql-analytics.html
+    estudo_en: /en/projetos/logitrack-sql-analytics.html
     dashboard: https://app.powerbi.com/view?r=eyJrIjoiZDk5NzgyMWItN2EwOS00NzA0LTgzMDYtNmI3NmJjZmNmZDMyIiwidCI6ImRhM2QxODEwLThlN2YtNGM1Yy1hMzE3LTBjY2I3ZWY2MmIzYSJ9
     github: https://github.com/opusvix/logitrack-sql-analytics
   pt:

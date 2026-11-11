@@ -3,10 +3,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 {% seo %}
-{%- if page.alternate %}
-<link rel="alternate" hreflang="pt-BR" href="{{ site.url }}/">
-<link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+{%- assign pt_url = nil -%}{%- assign en_url = nil -%}
+{%- if page.alternate -%}{%- assign pt_url = '/' -%}{%- assign en_url = '/en/' -%}
+{%- elsif page.alt_url -%}
+  {%- if include.l == 'en' -%}{%- assign en_url = page.url -%}{%- assign pt_url = page.alt_url -%}
+  {%- else -%}{%- assign pt_url = page.url -%}{%- assign en_url = page.alt_url -%}{%- endif -%}
+{%- endif -%}
+{%- if pt_url %}
+<link rel="alternate" hreflang="pt-BR" href="{{ site.url }}{{ pt_url }}">
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ pt_url }}">
 {%- endif %}
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">

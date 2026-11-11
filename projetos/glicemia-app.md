@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/glicemia-app.html
 title: "Glicemia: app de monitoramento"
 ---
 

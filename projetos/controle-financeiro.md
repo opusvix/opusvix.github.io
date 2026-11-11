@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/controle-financeiro.html
 title: "Controle Financeiro"
 ---
 

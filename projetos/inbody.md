@@ -1,5 +1,6 @@
 ---
 layout: default
+alt_url: /en/projetos/inbody.html
 title: "InBody: composição corporal"
 ---
 

@@ -1,87 +1,42 @@
 ---
 layout: default
+alt_url: /en/projetos/logitrack-sql-analytics.html
 title: LogiTrack SQL Analytics
 ---
 
-# 🚛 LogiTrack SQL Analytics
+# LogiTrack SQL Analytics
 
----
+Ambiente logístico simulado com 2,1 milhões de registros em PostgreSQL, focado em otimização de consultas SQL e particionamento de tabelas, com indicadores operacionais no Power BI.
 
-# 🇧🇷 Versão em Português
+![Dashboard Power BI do LogiTrack](/assets/projetos/logitrack/dashboard.webp)
 
-## 📌 Objetivo
+## O problema
 
-O projeto simula um ambiente logístico com 2.1 milhões de registros,
-focado em otimização de consultas SQL e performance em PostgreSQL.
+Com milhões de pedidos numa única tabela, as consultas de acompanhamento ficam lentas, e o painel operacional demora a responder justamente quando a equipe precisa decidir.
 
----
+## O que construí
 
-## 🏗 Modelo de dados
-
-![Modelo de dados](/assets/projetos/logitrack/modelo-dados.webp)
-
----
-
-## 🗄 Fonte de Dados
-
-- PostgreSQL
-- 2.100.000 registros
-- Tabelas particionadas por data
-
----
-
-## 📊 Métricas
+- **Base de dados:** PostgreSQL com 2.100.000 registros de pedidos.
+- **Particionamento por data:** as tabelas foram divididas por período, para que a consulta leia só as partições necessárias.
+- **Indicadores no Power BI:**
 
 | Métrica | Descrição |
-|----------|------------|
+| --- | --- |
 | Total Orders | Total de pedidos |
 | Orders by Type | Pedidos por tipo de veículo |
 | Avg Delivery Time | Tempo médio de entrega |
 
----
+![Modelo de dados](/assets/projetos/logitrack/modelo-dados.webp)
 
-## ⚡ Performance
+## Resultado
 
-| Cenário | Tempo |
-|----------|--------|
+| Cenário | Tempo da consulta |
+| --- | --- |
 | Antes (sem partição) | 551 ms |
-| Depois (com partição) | 0.034 ms |
+| Depois (com partição) | 0,034 ms |
 
----
+## Tecnologias
 
-## 📈 Dashboard Power BI
+PostgreSQL, SQL, Power BI e Docker.
 
-![Dashboard](/assets/projetos/logitrack/dashboard.webp)
-
----
-
-# 🇺🇸 English Version
-
-## 📌 Objective
-
-This project simulates a logistics database with 2.1M rows,
-focused on SQL optimization and partitioning strategies.
-
----
-
-## 🏗 Data model
-
-![Data model](/assets/projetos/logitrack/modelo-dados.webp)
-
----
-
-## ⚡ Performance
-
-| Scenario | Execution Time |
-|----------|----------------|
-| Before Partitioning | 551 ms |
-| After Partitioning | 0.034 ms |
-
----
-
-## 📊 Dashboard
-
-![Dashboard](/assets/projetos/logitrack/dashboard.webp)
-
----
-
+🔗 [Código no GitHub](https://github.com/opusvix/logitrack-sql-analytics){:target="_blank" rel="noopener"}
