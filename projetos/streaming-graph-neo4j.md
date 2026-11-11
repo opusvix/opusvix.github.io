@@ -1,117 +1,45 @@
 ---
 layout: default
 alt_url: /en/projetos/streaming-graph-neo4j.html
-title: "Streaming Graph Database – Neo4j"
+title: "Banco de grafos para streaming (Neo4j)"
+description: Modelo em grafo no Neo4j de usuários, filmes, séries, gêneros, atores e diretores, pensado para consultas de recomendação em Cypher.
 ---
 
-# 🎬 Streaming Graph Database – Neo4j
+# Banco de grafos para streaming (Neo4j)
 
-Projeto de modelagem de dados em grafos para um serviço de streaming de filmes e séries, utilizando **Neo4j** e **Cypher**, com foco em **relacionamentos** e **sistemas de recomendação**.
+Modelo de dados em grafo para um serviço de streaming de filmes e séries, com **Neo4j** e **Cypher**, focado em **relacionamentos** e **sistemas de recomendação**.
 
-O objetivo do projeto é demonstrar como grafos podem ser utilizados para representar conexões complexas entre usuários, conteúdos, gêneros, atores e diretores, indo além de modelos relacionais tradicionais.
+![Modelo do grafo](/assets/projetos/streaming-graph/modelo-grafo.webp)
 
----
+## O problema
 
-## 🧠 Visão Geral do Modelo
+Recomendações dependem de conexões: usuários com gosto parecido, gêneros, atores e diretores em comum. Num modelo relacional, essas perguntas viram cadeias de joins; num grafo, são um caminho direto pelos relacionamentos.
 
-O modelo foi construído como um **grafo de conhecimento**, permitindo consultas como:
+## O que construí
 
-- Conteúdos assistidos por usuários com gostos semelhantes  
-- Recomendações baseadas em gêneros, atores ou diretores  
-- Análise de similaridade entre filmes e séries  
-
----
-
-## 🧩 Entidades (Nós)
-
-- `User` – Usuários da plataforma
-- `Movie` – Filmes
-- `Series` – Séries
-- `Genre` – Gêneros de conteúdo
-- `Actor` – Atores
-- `Director` – Diretores
-
----
-
-## 🔗 Relacionamentos
+**Nós:** `User`, `Movie`, `Series`, `Genre`, `Actor`, `Director`.
 
 | Relacionamento | Descrição |
-|---------------|----------|
-| `WATCHED` | Usuário assistiu a um conteúdo (possui `rating`) |
-| `ACTED_IN` | Ator atuou em um filme ou série |
+| --- | --- |
+| `WATCHED` | Usuário assistiu a um conteúdo (tem `rating`) |
+| `ACTED_IN` | Ator atuou num filme ou série |
 | `DIRECTED` | Diretor dirigiu um filme ou série |
 | `IN_GENRE` | Conteúdo pertence a um gênero |
 
-Exemplo: (User)-[:WATCHED {rating}]->(Movie | Series)
+Exemplo: `(User)-[:WATCHED {rating}]->(Movie | Series)`
 
----
+**Decisões de modelagem:**
 
-## 📐 Modelo Visual do Grafo
+- Filmes e séries são entidades separadas, sem ligação direta; a semelhança é inferida por gêneros, atores e diretores.
+- `WATCHED` vale para filmes e séries e guarda a propriedade `rating`.
+- Constraints de unicidade (`constraints.cypher`) protegem a integridade do grafo; o script de dados (`graph-data.cypher`) foi gerado a partir do diagrama no Arrows.app.
 
-O diagrama abaixo foi criado utilizando o **Arrows.app**, ferramenta visual para modelagem em grafos compatível com Neo4j.
+## Resultado
 
-![Modelo de Grafo](/assets/projetos/streaming-graph/modelo-grafo.webp)
+Um modelo pronto para perguntas como "o que assistiram os usuários com gosto parecido?" e recomendações por gênero, ator ou diretor, com espaço para análise de caminhos e algoritmos como PageRank.
 
----
+## Tecnologias
 
-## 🧠 Decisões de Modelagem
+Neo4j, Cypher e Arrows.app (modelagem visual de grafos).
 
-- Filmes e Séries são entidades distintas, sem relacionamento direto entre si.
-- A similaridade entre conteúdos é inferida por gêneros, atores e diretores.
-- O relacionamento `WATCHED` é aplicado tanto a filmes quanto a séries e contém a propriedade `rating`.
-- O modelo foi pensado para facilitar consultas de recomendação e análises exploratórias.
-
----
-
-## 🗂 Estrutura do Repositório
-
-```text
-streaming-graph-database/
-│
-├── README.md
-│
-├── model/
-│   ├── constraints.cypher
-│   └── graph-data.cypher
-│
-└── diagrams/
-    └── graph-model-arrows.png
-```
-## ⚙️ Scripts Cypher
-'constraints.cypher'
-
-Define constraints de unicidade para garantir integridade do grafo (IDs e nomes únicos).
-
-'graph-data.cypher'
-
-Script gerado a partir do Arrows.app, responsável por criar os nós e relacionamentos do modelo.
-
-## ▶️ Como Executar no Neo4j
-
-Execute primeiro as constraints:
-
-:source model/constraints.cypher
-
-Em seguida, execute o script de dados:
-
-:source model/graph-data.cypher
-
-## 🚀 Possíveis Extensões
-
-- Queries de recomendação baseadas em similaridade
-
-- Análise de caminhos entre usuários e conteúdos
-
-- Aplicação de algoritmos como PageRank
-
-- Expansão do modelo para avaliações textuais
-
-
-## 👤 Autor
-
-Maurício Barros
-
-Analista de Dados | BI | Grafos | Neo4j
-
-GitHub: https://github.com/opusvix
-
+🔗 [Código no GitHub](https://github.com/opusvix/streaming-graph-database){:target="_blank" rel="noopener"}
