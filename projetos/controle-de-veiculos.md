@@ -43,5 +43,5 @@ A regra de negócio mais importante é a do km/L. Ele só é exato entre dois ta
 
 Python com Tkinter (só a biblioteca padrão), dados em JSON local, versão web para celular servida pelo próprio PC e `.exe` portátil para Windows 10/11.
 
-🔗 [Site oficial e download](https://controle-de-veiculos.netlify.app/){:target="_blank" rel="noopener"} · [Código no GitHub](https://github.com/opusvix/controle-de-veiculos){:target="_blank" rel="noopener"}
+🔗 [Site oficial e download](https://opusvix.github.io/controle-de-veiculos/){:target="_blank" rel="noopener"} · [Código no GitHub](https://github.com/opusvix/controle-de-veiculos){:target="_blank" rel="noopener"}
 

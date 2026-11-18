@@ -46,4 +46,4 @@ The most important business rule is km/L. It is only exact between two full tank
 
 Python with Tkinter (standard library only), data in local JSON, a phone web version served by the PC itself and a portable `.exe` for Windows 10/11. The app interface is in Portuguese.
 
-🔗 [Official site and download (PT)](https://controle-de-veiculos.netlify.app/){:target="_blank" rel="noopener"} · [Code on GitHub](https://github.com/opusvix/controle-de-veiculos){:target="_blank" rel="noopener"}
+🔗 [Official site and download (PT)](https://opusvix.github.io/controle-de-veiculos/){:target="_blank" rel="noopener"} · [Code on GitHub](https://github.com/opusvix/controle-de-veiculos){:target="_blank" rel="noopener"}
